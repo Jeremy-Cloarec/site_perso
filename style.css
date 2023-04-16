@@ -1,0 +1,51 @@
+
+
+
+body {
+    height: 2000px;
+}
+
+
+
+
+section{
+    width: 80%;
+    margin: auto;
+}
+
+/* accordion-button */
+
+.accordion-button-style{
+    padding: 16px 0px;
+    padding-right:16px;
+    background-color:none;
+    font-size: 24px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.accordion-button-style:focus{
+    background-color:#ffffff;
+    box-shadow: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.accordion-button-style:not(.collapsed){
+    background-color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.accordion-button-style:active{
+    background-color:white;
+}
+
+
+
+.accordion-body-style{
+    padding: 16px 0;
+}
+
+
+
