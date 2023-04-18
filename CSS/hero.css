@@ -1,5 +1,42 @@
 .hero{
-    height: 80vh;
-    background-color: rgb(248, 206, 213);
+    /* background-color: rgb(248, 206, 213); */
     padding-top: 70px;
+    display: flex;
+    
 }
+
+.containerHero{
+    display: flex;
+    margin-top: 70px;
+    /* background-color: grey; */
+    max-height: 80vh;
+    gap: 12px;
+    
+}
+
+.bio{
+    flex:2;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.bio p{
+    max-width: 300px;
+}
+
+.containerMe{
+    flex: 2;
+    display: flex;
+    /* align-items: center; */
+
+}
+
+.containerMe img{
+    width: 100%;
+    object-fit: contain;
+    margin-top: 16px;
+    
+
+}
+

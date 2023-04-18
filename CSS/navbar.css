@@ -2,22 +2,43 @@ header{
     background-color:#262626 ;
 }
 
-.navbar img{
+
+.nav-branding{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 12px;
+}
+
+.nav-branding img{
+    width: 42px;
+}
+
+.nav-branding p{
+    margin-bottom: 0;
+    font-size: 32px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav-menu img {
     width: 24px;
 }
+
+
 .navbar .fa-brands{
     
     color: white;
     line-height: 24px;
     font-size: 26px;
-    
 }
 
 .navbar .icoReseaux{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:12px;
+    gap:30px;
 }
 
 .navbar .icoReseaux a{
@@ -69,6 +90,7 @@ a {
 
 .nav-link{
     transition : 0.7 ease;
+    text-transform: uppercase;
 }
 
 .nav-link:hover{
