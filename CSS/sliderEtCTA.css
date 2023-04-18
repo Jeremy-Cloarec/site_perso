@@ -1,0 +1,150 @@
+
+
+.carroussetCTA{
+    display: flex;
+    gap: 18px;
+    margin-top: 50px;
+}
+
+
+
+
+
+/* Links description*/
+
+
+.descritionEtLien{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    white-space: nowrap;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    
+}
+
+.links p{
+    margin-bottom: 0;
+    line-height: 30px;
+}
+
+.linksIcones{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid black;
+    padding: 0px 16px;
+    border-radius: 50px;
+    height: 30px;
+    width: 100%;
+}
+
+.voirSite{
+    color: #ffffff;
+    background-color: black;
+    transition: all ease 0.5s;
+}
+
+.voirSite:hover{
+    background-color: rgb(32, 32, 32);
+}
+
+.voirCode{
+    font-weight: 600;
+    padding-left: 12px;
+    transition: all ease 0.5s;
+}
+
+.voirCode:hover{
+    background-color:#fefe;
+}
+
+.voirMaquette{
+    font-weight: 600;
+    border: none;
+    padding:0;
+    padding-left: 6px;
+    transition: all ease 0.5s;
+}
+
+.voirMaquette:hover{
+    text-decoration:underline solid 1px black;  
+}
+
+
+.linksIcones img{
+    width: 20px;
+}
+
+/* Carrousel */
+
+
+#carrousel1{
+    width: 50%;
+}
+
+/* accordion-button */
+
+.accordion-button-style{
+    padding: 16px 0px;
+    padding-right:16px;
+    background-color:none;
+    font-size: 24px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.accordion-button-style:focus{
+    background-color:#ffffff;
+    box-shadow: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.accordion-button-style:not(.collapsed){
+    background-color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.accordion-button-style:active{
+    background-color:white;
+
+}
+
+.accordion-body-style{
+    padding: 16px 0;
+}
+
+
+@media(max-width:992px){
+    .carroussetCTA{
+        flex-direction: column;
+    }
+    .descritionEtLien{
+        width: 100%;
+    }
+    .links{
+        flex-direction: row;
+    }
+
+}
+
+@media(max-width:576px){
+    .links{
+        flex-direction: column;
+    }
+}
