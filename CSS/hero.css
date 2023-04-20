@@ -7,22 +7,35 @@
 
 .containerHero{
     display: flex;
-    margin-top: 70px;
     /* background-color: grey; */
     max-height: 80vh;
-    gap: 12px;
+    gap: 24px;
+    margin: auto;
+    margin-top: 70px;
+    padding-top: 50px;
+    min-height: 425px;
     
 }
 
 .bio{
     flex:2;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
+    gap: 24px;
+   
 }
 
 .bio p{
-    max-width: 300px;
+    max-width: 300px; 
+    
+    
+}
+
+.bio h1{
+    width: 100%;
+    max-width: 300px; 
 }
 
 .containerMe{
@@ -36,7 +49,47 @@
     width: 100%;
     object-fit: contain;
     margin-top: 16px;
-    
+}
+
+@media(max-width:992px){
+    .containerHero{
+        padding-top: 0;
+        margin-top: 0px;
+    }
 
 }
+
+@media(max-width:576px){
+    .containerHero{
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 0;
+        margin-top: 0px;
+    }
+
+    
+    .containerMe{
+        order:1;
+        justify-content: center;
+    }
+
+    .containerMe img{
+        width: 70%;
+        margin-top: 24px;
+    }
+
+
+    .bio{
+        order: 2;
+    }
+
+    .bio p, .bio h1{
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+
+}
+
 

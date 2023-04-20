@@ -10,6 +10,7 @@
 body {
     height: 2000px;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 
@@ -17,6 +18,15 @@ body {
 
 h1, h2, h3, h4 {
     font-family: 'Roboto Slab', serif;
+    margin-bottom: 0;
+}
+
+h2{
+    text-align: center;
+    background-color: #e6e6e6;
+    padding: 60px 0;
+    margin: 90px 0;
+   
 }
 
 
@@ -28,28 +38,33 @@ a{
 
 
 
+/* Padding / Container / mise en page */
 
 .navbar{
     z-index: 10;
 }
 
 
-.navbar, .hero, .partTime{
-    padding: 0 80px;
+.header, .hero, .partTime{
+    padding: 0 32px;
+    max-width: 1400px;
+    margin: auto;
 }
 
-.partTime{
-    padding-top:30px;
-}
 
 p{
     margin-bottom: 0;
 }
 
 
+
+
+
+
+
 @media(max-width:992px){
     .navbar, .hero, .partTime{
-        padding: 0 50px;
+        padding: 0 32px;
     }
 
 }
@@ -58,6 +73,9 @@ p{
     .navbar, .hero, .partTime{
         padding: 0 12px;
     }
+
+}
+@media(max-width:768px){
 
 }
 
