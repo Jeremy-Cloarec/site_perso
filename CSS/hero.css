@@ -8,12 +8,11 @@
 .containerHero{
     display: flex;
     /* background-color: grey; */
-    max-height: 80vh;
+    /* max-height: 80vh; */
     gap: 24px;
     margin: auto;
-    margin-top: 70px;
-    padding-top: 50px;
     min-height: 425px;
+    margin-top: 50px;
     
 }
 
@@ -46,15 +45,22 @@
 }
 
 .containerMe img{
-    width: 100%;
+    width: 90%;
     object-fit: contain;
-    margin-top: 16px;
 }
 
 @media(max-width:992px){
     .containerHero{
         padding-top: 0;
         margin-top: 0px;
+    }
+}
+
+@media(max-width:768px){
+    
+    .containerHero {
+        min-height: auto;     
+        margin: 30px 0;
     }
 
 }
@@ -65,6 +71,7 @@
         justify-content: space-between;
         padding-top: 0;
         margin-top: 0px;
+        margin-bottom: 0;
     }
 
     
