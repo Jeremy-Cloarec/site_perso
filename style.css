@@ -15,6 +15,13 @@ body {
 }
 
 
+.fausseNav{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(179, 179, 179);
+}
+
+
 
 
 h1, h2, h3, h4 {
@@ -46,7 +53,7 @@ a{
 }
 
 
-.header, .hero, .partTime{
+.header, .hero, .containerGlobal{
     padding: 0 32px;
     max-width: 1400px;
     margin: auto;
@@ -69,6 +76,28 @@ h2{
     margin: 110px 0;
 }
 
+
+/* Boutons */
+
+
+.buttonPerso{
+    color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #262626;
+    padding: 8px 32px;
+    border-radius: 50px;
+    background-color: #262626;
+    color: white;
+    transition: all ease 0.3s;
+    width:fit-content;
+}
+
+.buttonPerso:hover{
+    background-color: #3b3b3b;
+}
 
 
 

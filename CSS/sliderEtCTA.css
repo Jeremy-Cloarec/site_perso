@@ -71,17 +71,7 @@ p.description {
     line-height: 30px;
 }
 
-.linksIcones{
-    color: #262626;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    border: 1px solid #262626;
-    padding: 8px 16px;
-    border-radius: 50px;
-    width: 100%;
-}
+
 
 .voirSite{
     color: #ffffff;
@@ -93,32 +83,32 @@ p.description {
     background-color: rgb(43, 43, 43);
 }
 
-.voirCode{
+.buttonIcon{
     font-weight: 600;
     padding-left: 12px;
     transition: all ease 0.5s;
 }
 
-.voirCode:hover{
+.buttonIcon:hover{
     background-color:#e6e6e6;
 }
 
-.voirMaquette{
+.buttonIcon{
 
     font-weight: 600;
     padding-left: 12px;
     transition: all ease 0.5s;
 }
 
-.voirMaquette:hover{ 
+.buttonIcon:hover{ 
     background-color:#e6e6e6;
 }
 
 
-.linksIcones img{
+.buttonIcon img{
     height: 30px;
 }
-.linksIcones i{
+.buttonIcon i{
     height: 30px;
     font-size: 28px;
     line-height: 30px;
