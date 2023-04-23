@@ -31,10 +31,7 @@ h1, h2, h3, h4 {
 
 h2{
     text-align: center;
-    background-color: #e6e6e6;
-    padding: 60px 0;
     /* margin: 90px 0; */
-   
 }
 
 
@@ -75,7 +72,6 @@ h2{
 .containerHero{
     margin: 110px 0;
 }
-
 
 /* Boutons */
 
