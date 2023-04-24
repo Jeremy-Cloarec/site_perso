@@ -1,3 +1,53 @@
-.containerGlobal{
-    background-color: #e6e6e6;
+
+
+.containerBg{
+    background-color: #f3f3f3;
+    padding: 110px 0;
+}
+.h3Grilles{
+    max-width: 992px;
+    margin: auto;
+    margin-bottom: 32px;
+
+}
+.grilleProjets{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 32px;
+    max-width: 992px;
+    margin: auto;
+    margin-bottom: 32px;
+}
+
+.cardProjet{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 8px;
+    transition: all ease 0.3s;
+}
+
+.cardProjet:hover{
+    opacity: 0.8;
+
+}
+
+
+.imgprojet img{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow:2px 2px 8px #26262621;
+}
+
+
+.titreProjet{
+    color: #262626;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 0;
+    text-align: center;
+}
+
+@media(max-width:768px){
+    
 }

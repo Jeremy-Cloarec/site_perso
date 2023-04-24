@@ -10,8 +10,7 @@
 
 body {
     height: 2000px;
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif; 
 }
 
 
@@ -58,7 +57,7 @@ a{
 
 
 h2{
-    margin-bottom: 110px;
+    margin-bottom: 90px;
 }
 .containerW{
     margin-bottom: 110px;
