@@ -1,3 +1,62 @@
-.bgWhite{
+.contact{
     background-color: white;
+}
+
+.containerContact{
+    display: flex;
+    max-width: 768px;
+    margin: auto;
+    gap:32px
+}
+
+
+
+.mainEtReseaux{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: end;
+    gap: 32px;
+}
+.mainEtReseaux img{
+    order: 2;
+    max-width: 360px;
+    margin-right: 18px;
+}
+
+.logoContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.logoContact i{
+    color: #262626;
+    font-size: 62px;
+    width: 100%;
+}
+
+.logoContact i:hover{
+    color: #262626ce;
+}
+
+@media(max-width:768px){
+    .containerContact{
+        flex-direction: column;
+    }
+
+    .mainEtReseaux{
+        align-items: flex-start;
+    }
+
+    .logoContact{
+        align-self: center;
+    }
+
+    .mainEtReseaux img{
+        width: 60%;
+
+    }
+
 }

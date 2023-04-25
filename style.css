@@ -9,8 +9,8 @@
 }
 
 body {
-    height: 2000px;
     font-family: 'Roboto', sans-serif; 
+    color: #262626;
 }
 
 
@@ -97,17 +97,6 @@ h2{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 p{
     margin-bottom: 0;
 }
@@ -128,30 +117,27 @@ p{
 @media(max-width:768px){
 
     h2{
-        margin-bottom: 80px;
+        margin-bottom: 60px;
     }
     .containerW{
-        margin-bottom: 80px;
+        margin-bottom: 60px;
     }
     
     .containerHero{
         margin: 80px 0;
     }
 
- 
-    
-    
-
 }
 
 
 @media(max-width:576px){
-    .navbar, .hero, .partTime{
+    .navbar, .hero, .partTime, .containerGlobal{
         padding: 0 12px;
     }
     h2 {
-        padding: 38px 0; 
-        /* margin: 32px 0;          */
+        padding: 0;
+        margin: 0;
+        padding-bottom: 32px;        
     }
 
 }
