@@ -15,31 +15,30 @@
     <link rel="stylesheet" href="CSS/grille.css">
     <link rel="stylesheet" href="CSS/contact.css">
     <link rel="stylesheet" href="CSS/footer.css">
-    
     <title>Site perso</title>
 </head>
 
 <body>
-    <header>
+    <header id="hero">
         <nav class="navbar">
-            <a href="#" class="nav-branding">
+            <a href="index.html" class="nav-branding">
                 <p>Jérémy</p>
             </a>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Accueil</a>
+                    <a href="index.html#hero" class="nav-link">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Réalisations</a>
+                    <a href="index.html#realisations" class="nav-link">Réalisations</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="index.html#contact" class="nav-link">Contact</a>
                 </li>
                 <div class="icoReseaux">
-                    <a href="" target="_blank">
+                    <a href="https://github.com/Jeremy-Cloarec" target="_blank">
                         <img src="assets/img/logoLien/github-mark-white.png" alt="">
                     </a>
-                    <a href="" target="_blank">
+                    <a href="https://www.instagram.com/le_codarec/" target="_blank">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
                 </div>
@@ -56,40 +55,37 @@
             <div class="bio">
                 <h1>Bonjour</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis ratione libero, recusandae optio incidunt aliquam nihil praesentium debitis ut. Impedit fugiat quasi odio architecto, debitis id nobis provident assumenda.</p>
-                <a href="https://jeremycloarec.com/lepetitcommerce/index.html" class="buttonPerso" target="_blank">
+                <a href="index.html#contact" class="buttonPerso">
                     <p>Me contacter</p>
                 </a>
             </div>
             <div class="containerMe">
                 <img src="assets/img/me.PNG" alt="#">
-               
+
             </div>
             
         </div>
-            
     </section>
-   
 
-  <!-- Section avec mes traveaux récents-->
+<!-- Section avec mes traveaux récents-->
 
     <main>
-        <div class="containerBg">
-            <section class="containerGlobal">
-                <h2>Réalisations</h2>
+        <div class="containerBg" id="realisations">
+            <section class="containerGlobal ">
+                <h2 >Réalisations</h2>
                 <!-- <h3 class="h3Grilles">2023</h3> -->
                 <div class="grilleProjets">
-                    
-                    <a href="#" class="cardProjet">
+                    <a href="projets/01-projet-petitcommerce.html" class="cardProjet">
                         <div class="imgprojet">
                             <img src="assets/img/vignettes/vignettePetitCommerce.jpg" alt="">
                         </div>
                         <p class="titreProjet">Le petit Commerce</p>
                     </a>
-                    <a href="#" class="cardProjet">
+                    <a href="projets/02-projet-northern.html" class="cardProjet">
                         <div class="imgprojet">
-                            <img src="assets/img/vignettes/vignettePetitCommerce.jpg" alt="">
+                            <img src="assets/img/vignettes/vignetteNorthern.jpg" alt="">
                         </div>
-                        <p class="titreProjet">Le petit Commerce</p>
+                        <p class="titreProjet">Northern Streetlight</p>
                     </a>
                     <a href="#" class="cardProjet">
                         <div class="imgprojet">
@@ -120,7 +116,7 @@
             </section>
 
         </div>
-        <div class="containerBg contact">
+        <div class="containerBg contact" id="contact">
             <section class="containerGlobal">
                 <h2>Me contacter</h2>
                 <div class="containerContact">
@@ -128,10 +124,10 @@
                     <div class="mainEtReseaux">
                         <img src="assets/img/doigt.PNG" alt="">
                         <div class="logoContact">
-                            <a href="#" target="_blank">
+                            <a href="https://www.instagram.com/le_codarec/" target="_blank">
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
-                            <a href="#" target="_blank">
+                            <a href="mailto:jeremycloarecàmsn.com" target="_blank">
                                 <i class="fa-regular fa-envelope"></i>
                             </a>
                         </div>
@@ -140,81 +136,14 @@
             </section>
         </div>
 
-        <div class="containerBg"></div>
-
-        <section class="containerGlobal containerSlider">
-            <div class="containerW">
-                <div class="titreAudessus">
-                    <h3>Le petit commerce</h3>
-                    <div class="descriptionW">
-                        <p><span>Techniques utilisées</span> : HTML5, CSS, JS</p>
-                    </div>
-                </div>
-                
-                <section class="carroussetCTA">
-                    <div class="descritionEtLien">
-                        <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae enim itaque, rem debitis, totam, corporis facere vel dolorem quod molestias qui alias! Ducimus, necessitatibus quis praesentium illum iste quae amet libero. Fugit excepturi iste et sequi dignissimos maxime! Dolor, accusantium.</p>
-                        
-                        <div class="links">
-                            <a href="https://jeremycloarec.com/lepetitcommerce/index.html" class="buttonPerso voirSite" target="_blank">
-                                <p>Voir le site</p>
-                            </a>
-                            <a href="#" class="buttonPerso buttonIcon" target="_blank">
-                                <img src="../assets/img/logoLien/github-mark.png" alt="#">
-                                <p>Voir le code</p> 
-                            </a>
-                            <a href="#" class="buttonPerso buttonIcon" target="_blank">
-                                <i class="fa-brands fa-figma"></i>
-                                <p>Voir la maquette</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div id="carousel1" class="carousel slide carrouselAll">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"
-                                aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="../assets/img/img1.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../assets/img/img2.jpg" class="d-block w-100">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev carrouselControlPerso" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </section>
-            </div>
-        </section>
-
-
-
-
-
-
-
-
-
-
-
-
     </main>
 
     <footer>
         <section class="containerGlobal containerFooter">
             <div class="liensFooter">
-                <a href="#">Accueil</a>
-                <a href="#">Réalisations</a>
-                <a href="#">Contact</a>
+                <a href="index.html#hero">Accueil</a>
+                <a href="index.html#realisations">Réalisations</a>
+                <a href="index.html#contact">Contact</a>
             </div>
             <div class="footerNom">
                 <p>2023 | Jérémy Cloarec</p>

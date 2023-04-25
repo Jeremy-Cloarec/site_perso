@@ -1,5 +1,5 @@
 footer{
-    background-color:#262626 ;
+    background-color:#262626;
     color: white;
     padding: 32px 0;
 }
@@ -7,7 +7,8 @@ footer{
 .containerFooter{
     display: flex;
     flex-direction: column;
-    gap:24px;
+    gap:32px;
+    color: white;
 }
 
 .liensFooter{
@@ -24,10 +25,13 @@ footer{
 
 .liensFooter a {
     text-align: center;
+    color: white;
 }
 
 .footerNom{
     text-align: center;
     font-size: 12px;
-    opacity: 0.8;
+    opacity: 0.7;
+    font-weight: 300;
+    letter-spacing: 0.8px;
 }

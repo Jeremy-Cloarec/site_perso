@@ -1,8 +1,38 @@
+.precedent{
+    max-width: 992px;
+    margin: auto;
 
+}
+.flechePrecedent{
+    display: flex;
+    gap: 8px;
+    padding: 12px 0;
+    padding-top: 24px;
+    max-width: 200px;
+    font-size: 12px;
+    text-transform: uppercase;
+    align-items: center;
 
-.containerSlider
+}
 
+.containerSlider{
+    margin: auto;
+    width: 100%;
+    padding: 0 32px;
+    padding-bottom: 90px;
+    background-color: #e4e4e4;
+}
 
+.containerS{
+    max-width: 768px;
+    margin: auto;
+    color:#262626;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+
+}
 
 .containerW{
     /* background-color: royalblue; */
@@ -16,37 +46,24 @@
     gap: 24px;
 }
 
-
 /* Links description*/
 
 
-.titreAudessus{
+.descriptionW{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
     gap: 24px;
-    background-color:#262626;
-    padding: 12px 32px;
-    color: white;
-    border-radius: 8px;
-    
-    
-}
-.titreAudessus p{
-    max-width: 400px;
-}
-p.description {
-    font-size: 16px;
+
 }
 
-
-.descriptionW span{
+.descriptionW .technique{
     font-weight: 600;
+    opacity:0.7;
 }
+
 
 
 .descritionEtLien{
-    width: 35%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -57,12 +74,10 @@ p.description {
 .links{
     width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     white-space: nowrap;
-    align-items: center;
     gap: 12px;
     font-size: 16px;
+    flex-wrap: wrap;
     
 }
 
@@ -72,54 +87,51 @@ p.description {
 }
 
 
-
-.voirSite{
-    color: #ffffff;
-    background-color: #262626;
-    transition: all ease 0.5s;
-}
-
-.voirSite:hover{
-    background-color: rgb(43, 43, 43);
-}
-
-.buttonIcon{
+.containerSlider .buttonIcon{
+    border:1px solid #262626 ;
+    background-color: rgba(255, 255, 255, 0);
+    color: #262626;
     font-weight: 600;
-    padding-left: 12px;
+    gap: 12px;
     transition: all ease 0.5s;
+    padding-left:18px;
 }
 
-.buttonIcon:hover{
-    background-color:#e6e6e6;
+.containerSlider .buttonIcon:hover{
+    background-color:#cecece;
 }
 
-.buttonIcon{
-
-    font-weight: 600;
-    padding-left: 12px;
-    transition: all ease 0.5s;
-}
-
-.buttonIcon:hover{ 
-    background-color:#e6e6e6;
-}
-
-
-.buttonIcon img{
+.containerSlider .buttonIcon img{
     height: 30px;
 }
-.buttonIcon i{
-    height: 30px;
-    font-size: 28px;
+
+.containerSlider .buttonFigma{
+    padding-left: 12px;
+}
+.containerSlider .buttonIcon i{
+    height: 28px;
+    font-size: 26px;
     line-height: 30px;
 }
 
 /* Carrousel */
 
-
-.carrouselAll{
-    width: 65%;
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color:#262626;
+    padding: 16px;
+    border: 8px #262626 solid;
 }
+
+.indicateur{
+    background-color: #26262694;
+    padding: 8px 0;
+    border-radius: 50px;
+}
+
+
+
+
+
 
 /* .carrouselControlPerso{
     top:0;
@@ -128,7 +140,7 @@ p.description {
 
 /* accordion-button */
 
-.accordion-button-style{
+/* .accordion-button-style{
     padding: 16px 0px;
     padding-right:16px;
     background-color:none;
@@ -158,7 +170,7 @@ p.description {
 
 .accordion-body-style{
     padding: 16px 0;
-}
+} */
 
 
 
@@ -166,7 +178,6 @@ p.description {
 @media(max-width:992px){
     .carrouselAll {
         width: 100%;
-        order: 1;
     }
 
     .carroussetCTA{
@@ -174,25 +185,33 @@ p.description {
     }
     .descritionEtLien{
         width: 100%;
-        order: 2;
     }
-    .links{
-        flex-direction: row;
-    }
-
 }
 
 @media(max-width:576px){
 
-    .titreAudessus{
-        flex-direction: column;
-        align-items: start;
-        gap: 16px;
-        padding: 12px 18px;
-
-    }
     .links{
         flex-direction: column;
+        width: 100%;
         
+    }
+
+    .links a{
+        width: 100%;
+    }
+
+    .containerSlider{
+        padding: 0 12px;
+        padding-bottom: 96px;
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        padding: 16px;
+        border: 3px #262626 solid;
+    }
+
+    .carousel-indicators{
+        padding: 3px 0;
+        border-radius: 50px;
     }
 }

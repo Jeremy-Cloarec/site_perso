@@ -69,5 +69,9 @@
         gap:12px;
         grid-template-columns: repeat(2,1fr);
     }
+
+    .titreProjet{
+        font-size: 16px;
+    }
     
 }
