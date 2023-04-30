@@ -25,7 +25,7 @@ header{
 }
 
 .nav-branding img{
-    width: 42px;
+    width: 160px;
 }
 
 .nav-branding p{
@@ -108,9 +108,9 @@ a {
 }
 
 .nav-branding{
-    font-size: 2rem;
     z-index: 2;
 }
+
 
 .nav-link{
     transition : 0.7 ease;
@@ -139,11 +139,16 @@ a {
 }
 
 
-@media(max-width:1400px){
+@media(max-width:1530px){
     .navbar{
         padding: 0 32px;
     } 
 }
+/* @media(max-width:1400px){
+    .navbar{
+        padding: 0 32px;
+    } 
+} */
 
 @media(max-width:768px){
     
@@ -159,6 +164,11 @@ a {
     .hamburger.active .bar:nth-child(3) {
         transform : translateY(-8px) rotate(-45deg);
     }
+
+    .nav-branding img{
+        width: 120px;
+    }
+    
 
     /* .nav{
         width: 100%;
@@ -200,4 +210,10 @@ a {
     }
 
     
+}
+
+@media(max-width:576px){
+    .navbar{
+        padding: 0 12px;
+    } 
 }
