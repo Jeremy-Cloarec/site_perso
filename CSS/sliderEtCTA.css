@@ -1,6 +1,35 @@
+
+
+
+.containerSlider {
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    flex-grow: 1;
+
+}
+
+.containerS {
+    flex:1;
+
+
+}
+
+
+
+
+
 .precedent{
     max-width: 992px;
     margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+
+    
+
 
 }
 .flechePrecedent{
@@ -8,12 +37,22 @@
     gap: 8px;
     padding: 12px 0;
     padding-top: 24px;
-    max-width: 200px;
+    max-width: 160px;
     font-size: 12px;
     text-transform: uppercase;
     align-items: center;
+    position: relative;
+    left: 0px;
+    transition: all ease-in-out 0.3s;
+
 
 }
+
+.flechePrecedent:hover{
+    left: -8px;
+    font-weight: 600;
+}
+
 
 .containerSlider{
     margin: auto;
@@ -44,6 +83,12 @@
 .carroussetCTA{
     display: flex;
     gap: 24px;
+   
+}
+
+.carrouselShadow{
+    border-radius: 8px;
+    box-shadow: 1px 1px 8px #26262654;
 }
 
 /* Links description*/

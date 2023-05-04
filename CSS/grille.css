@@ -27,16 +27,28 @@
     transition: all ease 0.3s;
 }
 
-.cardProjet:hover{
-    opacity: 0.8;
-
-}
-
-
 .imgprojet img{
     width: 100%;
     border-radius: 8px;
-    box-shadow:2px 2px 8px #26262621;
+}
+
+.cardProjet .imgprojet img{
+    bottom: 0px;
+    position: relative;
+    transition: all 0.3s ease;
+    box-shadow: 1px 1px 8px #26262654;
+}
+.cardProjet:hover .imgprojet img{
+    bottom: 8px;
+    box-shadow: 1px 1px 20px #2626268e;
+}
+
+.cardProjet .titreProjet{
+    transition: all 0.3s ease;
+}
+.cardProjet:hover .titreProjet{
+    transform: scale(1.1);
+
 }
 
 
@@ -47,6 +59,7 @@
     padding: 24px 0;
     text-align: center;
 }
+
 
 @media(max-width:992px){
     

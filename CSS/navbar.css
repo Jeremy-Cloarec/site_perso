@@ -22,10 +22,17 @@ header{
     align-items: center;
     color: white;
     gap: 12px;
+    
 }
 
+
 .nav-branding img{
-    width: 160px;
+    width: 150px;
+    transition: all 0.3s;
+}
+
+.nav-branding img:hover{
+    opacity: 0.8;
 }
 
 .nav-branding p{
@@ -115,6 +122,8 @@ a {
 .nav-link{
     transition : 0.7 ease;
     text-transform: uppercase;
+    transition: all 0.4s;
+    border-bottom: rgba(255, 255, 255, 0) 1px solid;
 }
 
 .nav-link:hover{
