@@ -15,7 +15,7 @@
     grid-template-columns: repeat(3,1fr);
     gap: 32px;
     row-gap: 48px;
-    max-width: 992px;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -47,7 +47,9 @@
     transition: all 0.3s ease;
 }
 .cardProjet:hover .titreProjet{
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
+    font-weight: 600;
+    
 
 }
 
@@ -76,9 +78,9 @@
 }
 @media(max-width:576px){
     
-    .containerBg{
+    /* .containerBg{
         padding: 32px 0;
-    }
+    } */
 
     .grilleProjets{
         gap:12px;
