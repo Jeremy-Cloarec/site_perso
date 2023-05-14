@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="CSS/sliderEtCTA.css">
     <link rel="stylesheet" href="CSS/grille.css">
     <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="stylesheet" href="CSS/quiSuisJe.css">
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="icon" type="image/x-icon" href="assets/img/logoPerso/faviconJeremy.png">
     <title>Site perso</title>
@@ -51,13 +52,16 @@
             </div>
         </nav>
     </header>
+
+    <!-- Hero -->
+
     <section class="hero">
         <div class="containerHero">
             <div class="bio">
                 <h1>Développeur web</h1>
 
                 <p>Formé à la fois en webdesign et en développement, j'ai acquis des compétences étendues dans la création de sites attrayants et conviviaux. .</p>
-                <p>Mon expertise en HTML, CSS, JavaScript et PHP me permet de concrétiser des concepts créatifs en solutions web performantes.</p>
+                <p>Mon expertise en HTML, CSS, JavaScript et PHP me permet de concrétiser des projets créatifs en solutions web performantes.</p>
                 <a href="index.html#contact" class="buttonPerso">
                     <p>Me contacter</p>
                 </a>
@@ -70,9 +74,8 @@
         </div>
     </section>
 
-<!-- Section avec mes traveaux récents-->
-
     <main>
+        <!-- Réalisations -->
         <div class="containerBg" id="realisations">
             <section class="containerGlobal ">
                 <h2 >Réalisations</h2>
@@ -108,7 +111,7 @@
                         </div>
                         <p class="titreProjet">Personal Branding</p>
                     </a>
-                    <a href="projets/06-projet-k6.html" class="cardProjet">
+                    <!-- <a href="projets/06-projet-k6.html" class="cardProjet">
                         <div class="imgprojet">
                             <img src="assets/img/vignettes/vignettesK6.jpg" alt="vignettes montrant la page d'accueil du site k6 auto ecole en version mobile">
                         </div>
@@ -119,17 +122,61 @@
                             <img src="assets/img/vignettes/vignetteParimis.jpg" alt="vignettes montrant la page d'accueil du site Parimis en version mobile">
                         </div>
                         <p class="titreProjet">Parimis</p>
-                    </a>
+                    </a> -->
                 </div>
 
             </section>
-
         </div>
+
+        <!-- Qui suis-je ? -->
+        <div class="containerBg" id="quiSuisJe">
+            <section class="containerGlobal">
+                <div class="containerQuiSuiJe">
+                    <div class="sectionQuiSuisJe">
+                        <h2>Qui suis-je ?</h2>
+
+                        <p>Si mon travail vou intéresse, vous pouvez me contacter par mail ou sur Instagram en cliquant sur les icones correspondantes.</p>
+
+                        <a href="assets/img/cv/CVJeremyCloarec.jpg" class="buttonPerso" download="CV_Jeremy_Cloarec.jpg">
+                            <p>Télécharger le CV</p>
+                        </a>
+
+                    </div>
+                    <div class="containerFigma">
+                        <img src="assets/img/cv/CVJeremyCloarec.jpg" class="cv" alt="CV de Jérémy Cloarec">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Qui suis-je copie -->
+
+        <!-- <div class="containerBg contact" id="quiSuisJe">
+            <section class="containerGlobal">
+                <div class="containerQuiSuiJe">
+                    <div class="sectionQuiSuisJe">
+                        <h2>Qui suis-je ?</h2>
+
+                        <p>Si mon travail vou intéresse, vous pouvez me contacter par mail ou sur Instagram en cliquant sur les icones correspondantes.</p>
+
+                        <a href="index.html#contact" class="buttonPerso">
+                            <p>Télécharger le CV</p>
+                        </a>
+
+                    </div>
+                    <div class="containerFigma">
+                        <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F1TPXw2cdqyjgC2IvMr4aAr%2FCV-et-Lettres%3Ftype%3Ddesign%26node-id%3D424%253A2%26t%3DmG5XssVpQqrVzZdV-1" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+        </div> -->
+
+        <!-- Contact -->
         <div class="containerBg contact" id="contact">
             <section class="containerGlobal">
                 <h2>Me contacter</h2>
                 <div class="containerContact">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, fugit!</p>
+                    <p>Si mon travail vou intéresse, vous pouvez me contacter par mail ou sur Instagram en cliquant sur les icones correspondantes.</p>
                     <div class="mainEtReseaux">
                         <img src="assets/img/doigt.PNG" alt="">
                         <div class="logoContact">
@@ -144,7 +191,6 @@
                 </div>
             </section>
         </div>
-
     </main>
 
     <footer>
@@ -171,6 +217,8 @@
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/3c3a356350.js" crossorigin="anonymous"></script>
     <script src="JS/script.js"></script>
+    <script src="JS/fullScreen.js
+    "></script>
 
 </body>
 
