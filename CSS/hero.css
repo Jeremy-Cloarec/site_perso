@@ -20,24 +20,26 @@
 
 .bio{
     flex:2;
+    flex-shrink: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 16px;
+    gap: 24px;
     max-width: 400px;
 }
 
 .containerMe{
     flex: 2;
+    flex-shrink: 0;
     display: flex;
     justify-content: end;
-    /* align-items: center; */
-    height: 90vh;
+    align-items: center;
+    height: 75vh;
     min-height: 334px;
 }
 
 .containerMe img{
-    width: 90%;
+    width: 75%;
     object-fit: contain;
 }
 
@@ -48,7 +50,7 @@
     }
 
     .containerMe{
-        height: 50vh
+        height: 70vh
     }
 
     .containerMe img{
@@ -64,17 +66,25 @@
     .containerHero {
         min-height: auto;     
         margin: 30px 0;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .bio{
         max-width: 100%;
+    }
+    .containerMe{
+        order: 1;
+        min-height: auto;
+
+    }
+    .bio{
+        order: 2;
     }
 
 }
 
 @media(max-width:576px){
     .containerHero{
-        flex-direction: column;
-        justify-content: space-between;
         padding-top: 0;
         margin-bottom: 0;
         margin-top: 0;
@@ -85,17 +95,13 @@
     .containerMe{
         order:1;
         justify-content: center;
-        height:auto;
-        width: 80%;
-        min-height: auto;
-       
+        width: 100%;
     }
-
-    
 
 
     .bio{
         order: 2;
+        gap: 16px;
     }
 
     .bio p, .bio h1{

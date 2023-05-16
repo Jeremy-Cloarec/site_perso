@@ -1,38 +1,61 @@
 #quiSuisJe{
-    max-width: 768px;
+    max-width: 1400px;
     margin: auto;
     background-color: white;
 }
 
 .containerQuiSuiJe{
     display: flex;
-    gap : 32px;
+    gap : 82px;
+    align-items: center;
 }
 
 #quiSuisJe h2{
     padding: 0;
     margin: 0;
     text-align: left;
+    padding-bottom: 32px;
 }
 
 #quiSuisJe .sectionQuiSuisJe{
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 24px;
     flex: 2;
-    margin-top:48px;
+    /* margin-top:48px; */
 }
 
 #quiSuisJe .containerFigma{
-    flex: 3;
+    flex: 1;
 }
 
 .cv{
     width: 100%;
     background-color:#26262638;
     border-radius: 8px;
-    border: 1px solid #26262638;
+    /* border: 1px solid #26262638; */
+    box-shadow: 0 0 0 1px #2626268a;
     cursor: pointer;
+    max-width: 650px;
+    transition: all 0.3s;
+}
+
+.cv:hover{
+    box-shadow: 0 0 0 2px #262626cf;
+    transform: scale(1.01);
+
+}
+
+.containerFigma{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.containerFigma .fichierCV{
+    width: 100%;
+    display: none;
+    text-align: center;
 }
 
 
@@ -54,28 +77,37 @@
 }
 
 
-@media(max-width:768px){
+@media(max-width:992px){
     .containerQuiSuiJe{
         flex-direction: column;
-        
     }
 
     #quiSuisJe .sectionQuiSuisJe{
         margin-top: 0;
     }
 
+    .containerFigma .fichierCV{
+        display: block;
+    }
+
+    .descriptionCv{
+        display: none;
+    }
+    .containerQuiSuiJe{
+        gap: 32px;
+    }
+
 }
 
 @media(max-width:576px){
-    #quiSuisJe .containerFigma iframe{
-        min-height:530px ;
+
+    #quiSuisJe .sectionQuiSuisJe{
+        gap: 16px;
+    }
+    .containerQuiSuiJe{
+        gap: 32px;
     }
 
 }
-@media(max-width:300px){
-    #quiSuisJe .containerFigma iframe{
-        min-height:400px ;
-    }
 
-}
 

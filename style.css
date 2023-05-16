@@ -48,7 +48,9 @@ h2{
     /* margin: 90px 0; */
 }
 
-
+p{
+    font-size: 20px;
+}
 
 a{
     text-decoration: none;
@@ -109,9 +111,6 @@ h2{
     background-color: #3b3b3b;
 }
 
-
-
-
 p{
     margin-bottom: 0;
 }
@@ -152,7 +151,11 @@ p{
     h2 {
         padding: 0;
         margin: 0;
-        padding-bottom: 60px;        
+        padding-bottom: 48px;        
+    }
+    .buttonPerso{
+        width: 100%;
+        text-align: center;
     }
 
 }

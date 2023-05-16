@@ -102,7 +102,8 @@ a {
     top: 0px;
     width: 100%;
     background-color: #262626;
-    transition: all 0.5s ease-in;
+    transition: all 0.3s ease;
+    flex-wrap: nowrap;
 }
 
 
@@ -124,6 +125,7 @@ a {
     text-transform: uppercase;
     transition: all 0.4s;
     border-bottom: rgba(255, 255, 255, 0) 1px solid;
+    white-space: nowrap;
 }
 
 .nav-link:hover{
