@@ -18,7 +18,7 @@
 
     <div class="containerSlider">
         <div class="precedent">
-            <a href="../index.html#realisations" class="flechePrecedent">
+            <a href="../index/index.php#realisations" class="flechePrecedent">
                 <span class="material-symbols-outlined">
                     arrow_back
                     </span>
@@ -35,14 +35,18 @@
                         <p class="description">
                             Ce projet m'a permis d'acquérir de nouvelles compétences, notamment la création d'une barre de navigation complexe avec plusieurs sous-menus, l'utilisation de la librairie de carrousel Swiper, ainsi que la conception de composants réutilisables d'une page à l'autre.                    
                         </p>
-                        
 
-                            
-
-                        
-                            
                     </div>
                 </div>
+
+                <section class="carroussetCTA">
+
+                <iframe id="inlineFrameExample"
+                    title="Inline Frame Example"
+                    src="https://jeremycloarec.com/lepetitcommerce/index.html">
+                </iframe>
+                    
+                </section>
                 <section class="carroussetCTA">
                     <div id="carousel1" class="carousel slide carrouselAll">
                         <!-- <div class="carousel-indicators indicateur">
@@ -84,6 +88,7 @@
                         </button>
                     </div>
                 </section>
+
                 <div class="links">
                     <a href="https://jeremycloarec.com/lepetitcommerce/index.html" class="buttonPerso voirSite" target="_blank">
                         <p>Voir le site</p>

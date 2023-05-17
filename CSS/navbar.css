@@ -7,11 +7,6 @@ header{
     justify-content: center;
 }
 
-.navbar{
-    width: 100%;
-    padding: 0 80px;
-}
-
 
 .nav-branding{
     display: flex;
@@ -100,6 +95,7 @@ a {
     background-color: #262626;
     transition: all 0.3s ease;
     flex-wrap: nowrap;
+    padding: 0 80px; 
 }
 
 

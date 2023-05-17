@@ -4,23 +4,23 @@
 
 
 
-    <header id="hero">
+    <header>
     <nav class="navbar">
-        <a href="index.html" class="nav-branding">
+        <a href="../index/index.php" class="nav-branding">
             <img src="../assets/img/logoPerso/logoPersoBlanc.png" alt="#">
         </a>
         <ul class="nav-menu">
             <li class="nav-item">
-                <a href="index.php#hero" class="nav-link">Accueil</a>
+                <a href="../index/index.php#top" class="nav-link">Accueil</a>
             </li>
             <li class="nav-item">
-                <a href="index.html#realisations" class="nav-link">Réalisations</a>
+                <a href="../index/index.php#realisations" class="nav-link">Réalisations</a>
             </li>
             <li class="nav-item">
-                <a href="index.html#quiSuisJe" class="nav-link">Qui suis-je ?</a>
+                <a href="../index/index.php#quiSuisJe" class="nav-link">Qui suis-je ?</a>
             </li>
             <li class="nav-item">
-                <a href="index.html#contact" class="nav-link">Contact</a>
+                <a href="../index/index.php#contact" class="nav-link">Contact</a>
             </li>
             <div class="icoReseaux">
                 <a href="https://github.com/Jeremy-Cloarec" target="_blank">

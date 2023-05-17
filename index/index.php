@@ -7,6 +7,7 @@
 
 <body>
 
+<div id="top"></div>
 
     <?php include '../required/nav.php';?>
 
@@ -28,7 +29,6 @@
             <div class="containerMe">
                 <img src="../assets/img/me.PNG" alt="#">
             </div>
-            
         </div>
     </section>
 
@@ -39,31 +39,31 @@
                 <h2 >Réalisations</h2>
                 <!-- <h3 class="h3Grilles">2023</h3> -->
                 <div class="grilleProjets">
-                    <a href="projets/01-projet-petitcommerce.html" class="cardProjet">
+                    <a href="../projets/01-projet-petitcommerce.php" class="cardProjet">
                         <div class="imgprojet">
                             <img src="../assets/img/vignettes/vignettePetitCommerce.jpg" alt="vignettes montrant la page d'accueil du site Le petit commerce en version mobile">
                         </div>
                         <p class="titreProjet">Le petit Commerce</p>
                     </a>
-                    <a href="projets/02-projet-northern.html" class="cardProjet">
+                    <a href="../projets/02-projet-northern.php" class="cardProjet">
                         <div class="imgprojet">
                             <img src="../assets/img/vignettes/vignetteNorthern.jpg" alt="vignettes montrant la page d'accueil du site Northern Streetlight en version mobile">
                         </div>
                         <p class="titreProjet">Northern Streetlight</p>
                     </a>
-                    <a href="projets/03-projet-futuroscope.html" class="cardProjet">
+                    <a href="../projets/03-projet-futuroscope.php" class="cardProjet">
                         <div class="imgprojet">
                             <img src="../assets/img/vignettes/vignetteFuturoscope.jpg" alt="vignettes montrant la page d'accueil d'une version personnelle du site du futuroscope en version mobile">
                         </div>
                         <p class="titreProjet">Futuroscope</p>
                     </a>
-                    <a href="projets/04-projet-guessingGame.html" class="cardProjet">
+                    <a href="../projets/04-projet-guessingGame.php" class="cardProjet">
                         <div class="imgprojet">
                             <img src="../assets/img/vignettes/vignetteGuessing.jpg" alt="vignettes montrant la page d'accueil du site Guessing Game en version mobile">
                         </div>
                         <p class="titreProjet">Guessing Game</p>
                     </a>
-                    <a href="projets/05-projet-branding.html" class="cardProjet">
+                    <a href="../projets/05-projet-branding.php" class="cardProjet">
                         <div class="imgprojet">
                             <img src="../assets/img/vignettes/vignetteBranding.jpg" alt="vignettes montrant la page d'accueil du site Personnal Branding en version mobile">
                         </div>
