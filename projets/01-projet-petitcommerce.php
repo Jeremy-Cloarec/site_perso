@@ -1,59 +1,20 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php include '../required/head.php';?>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="../CSS/hero.css">
-    <link rel="stylesheet" href="../CSS/sliderEtCTA.css">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../css/projet.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="icon" type="image/x-icon" href="../assets/img/logoPerso/faviconJeremy.png">
 
-    <title>Parimis</title>
-</head>
+
 
 <body>
 
-    <header>
-        <nav class="navbar">
-            <a href="../index.html" class="nav-branding">
-                <img src="../assets/img/logoPerso/logoPersoBlanc.png" alt="#">
-            </a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="../index.html#hero" class="nav-link">Accueil</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../index.html#realisations" class="nav-link">Réalisations</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../index.html#contact" class="nav-link">Contact</a>
-                </li>
-                <div class="icoReseaux">
-                    <a href="https://github.com/Jeremy-Cloarec" target="_blank">
-                        <img src="../assets/img/logoLien/github-mark-white.png" alt="">
-                    </a>
-                    <a href="https://www.instagram.com/le_codarec/" target="_blank">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </div>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-    </header>
-   
+<?php include '../required/nav.php';?>
+    
+
 
     <div class="containerSlider">
         <div class="precedent">
@@ -67,9 +28,19 @@
         <section class="containerS ">
                 <div class="titreAudessus">
                     <div class="descriptionW">
-                        <h1>Parimis</h1>
-                        <p class="technique"><span>2021 | HTML, CSS </p>
-                        <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae enim itaque, rem debitis, totam, corporis facere vel dolorem quod molestias qui alias! Ducimus, necessitatibus quis praesentium illum iste quae amet libero. Fugit excepturi iste et sequi dignissimos maxime! Dolor, accusantium.</p>
+                        <h1>Le petit commerce</h1>
+                        <p class="technique"><span>2023 | HTML5, CSS, JS (Vanilla, Swiper)</p>
+                        <p class="description">Ce site e-commerce a été créé dans le cadre de mon évaluation front-end lors de ma formation à l'Ifocop. Bien que le nom de la boutique et les pages demandées étaient imposés, j'ai eu la liberté de choisir le contenu et la charte graphique. J'ai utilisé principalement HTML, CSS et JS (Vanilla).
+                        </p>
+                        <p class="description">
+                            Ce projet m'a permis d'acquérir de nouvelles compétences, notamment la création d'une barre de navigation complexe avec plusieurs sous-menus, l'utilisation de la librairie de carrousel Swiper, ainsi que la conception de composants réutilisables d'une page à l'autre.                    
+                        </p>
+                        
+
+                            
+
+                        
+                            
                     </div>
                 </div>
                 <section class="carroussetCTA">
@@ -85,13 +56,22 @@
                         </div> -->
                         <div class="carousel-inner carrouselShadow">
                             <div class="carousel-item active">
-                                <img src="../assets/img/screenSite/parimis/Parimis 1.jpg" class="d-block w-100" alt="...">
+                                <img src="../assets/img/screenSite/petitCommerce/Petit commerce 1.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="../assets/img/screenSite/parimis/Parimis 2.jpg" class="d-block w-100">
+                                <img src="../assets/img/screenSite/petitCommerce/Petit commerce 2.jpg" class="d-block w-100">
                             </div>
                             <div class="carousel-item">
-                                <img src="../assets/img/screenSite/parimis/Parimis 3.jpg" class="d-block w-100">
+                                <img src="../assets/img/screenSite/petitCommerce/Petit commerce 3.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/img/screenSite/petitCommerce/Petit commerce 4.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/img/screenSite/petitCommerce/Petit commerce 5.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/img/screenSite/petitCommerce/Petit commerce 6.jpg" class="d-block w-100">
                             </div>
                         </div>
                         <button class="carousel-control-prev carrouselControlPerso" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
@@ -105,15 +85,14 @@
                     </div>
                 </section>
                 <div class="links">
-                    <a href="http://parimis.jeremycloarec.com/" class="buttonPerso voirSite" target="_blank">
+                    <a href="https://jeremycloarec.com/lepetitcommerce/index.html" class="buttonPerso voirSite" target="_blank">
                         <p>Voir le site</p>
                     </a>
-                    <!-- 
                     <a href="https://github.com/Jeremy-Cloarec/le-petit-commerce.git" class="buttonPerso buttonIcon buttonFigma" target="_blank">
                         <img src="../assets/img/logoLien/github-mark.png" alt="#">
                         <p>Voir le code</p> 
-                    </a> -->
-                    <!-- <a href="https://www.figma.com/proto/hdL96mgAurJNSst5BTefq7/Futuroscop?page-id=0%3A1&node-id=40-38&viewport=571%2C2391%2C0.36&scaling=scale-down&starting-point-node-id=40%3A38" class="buttonPerso buttonIcon" target="_blank">
+                    </a>
+                    <!-- <a href="#" class="buttonPerso buttonIcon" target="_blank">
                         <i class="fa-brands fa-figma"></i>
                         <p>Voir la maquette</p>
                     </a> -->
@@ -140,3 +119,6 @@
 <script src="https://kit.fontawesome.com/3c3a356350.js" crossorigin="anonymous"></script>
 <script src="/JS/script.js"></script>
 </body>
+
+</html>
+

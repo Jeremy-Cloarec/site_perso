@@ -1,60 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="CSS/navbar.css">
-    <link rel="stylesheet" href="CSS/hero.css">
-    <link rel="stylesheet" href="CSS/sliderEtCTA.css">
-    <link rel="stylesheet" href="CSS/grille.css">
-    <link rel="stylesheet" href="CSS/contact.css">
-    <link rel="stylesheet" href="CSS/quiSuisJe.css">
-    <link rel="stylesheet" href="CSS/footer.css">
-    <link rel="icon" type="image/x-icon" href="assets/img/logoPerso/faviconJeremy.png">
-    <title>Site perso</title>
-</head>
+
+<?php include '../required/head.php';?>
+
 
 <body>
-    <header id="hero">
-        <nav class="navbar">
-            <a href="index.html" class="nav-branding">
-                <img src="assets/img/logoPerso/logoPersoBlanc.png" alt="#">
-            </a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="index.html#hero" class="nav-link">Accueil</a>
-                </li>
-                <li class="nav-item">
-                    <a href="index.html#realisations" class="nav-link">Réalisations</a>
-                </li>
-                <li class="nav-item">
-                    <a href="index.html#quiSuisJe" class="nav-link">Qui suis-je ?</a>
-                </li>
-                <li class="nav-item">
-                    <a href="index.html#contact" class="nav-link">Contact</a>
-                </li>
-                <div class="icoReseaux">
-                    <a href="https://github.com/Jeremy-Cloarec" target="_blank">
-                        <img src="assets/img/logoLien/github-mark-white.png" alt="">
-                    </a>
-                    <a href="https://www.instagram.com/le_codarec/" target="_blank">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </div>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-    </header>
+
+
+    <?php include '../required/nav.php';?>
 
     <!-- Hero -->
 
@@ -72,8 +26,7 @@
                 </a>
             </div>
             <div class="containerMe">
-                <img src="assets/img/me.PNG" alt="#">
-
+                <img src="../assets/img/me.PNG" alt="#">
             </div>
             
         </div>
@@ -88,52 +41,41 @@
                 <div class="grilleProjets">
                     <a href="projets/01-projet-petitcommerce.html" class="cardProjet">
                         <div class="imgprojet">
-                            <img src="assets/img/vignettes/vignettePetitCommerce.jpg" alt="vignettes montrant la page d'accueil du site Le petit commerce en version mobile">
+                            <img src="../assets/img/vignettes/vignettePetitCommerce.jpg" alt="vignettes montrant la page d'accueil du site Le petit commerce en version mobile">
                         </div>
                         <p class="titreProjet">Le petit Commerce</p>
                     </a>
                     <a href="projets/02-projet-northern.html" class="cardProjet">
                         <div class="imgprojet">
-                            <img src="assets/img/vignettes/vignetteNorthern.jpg" alt="vignettes montrant la page d'accueil du site Northern Streetlight en version mobile">
+                            <img src="../assets/img/vignettes/vignetteNorthern.jpg" alt="vignettes montrant la page d'accueil du site Northern Streetlight en version mobile">
                         </div>
                         <p class="titreProjet">Northern Streetlight</p>
                     </a>
                     <a href="projets/03-projet-futuroscope.html" class="cardProjet">
                         <div class="imgprojet">
-                            <img src="assets/img/vignettes/vignetteFuturoscope.jpg" alt="vignettes montrant la page d'accueil d'une version personnelle du site du futuroscope en version mobile">
+                            <img src="../assets/img/vignettes/vignetteFuturoscope.jpg" alt="vignettes montrant la page d'accueil d'une version personnelle du site du futuroscope en version mobile">
                         </div>
                         <p class="titreProjet">Futuroscope</p>
                     </a>
                     <a href="projets/04-projet-guessingGame.html" class="cardProjet">
                         <div class="imgprojet">
-                            <img src="assets/img/vignettes/vignetteGuessing.jpg" alt="vignettes montrant la page d'accueil du site Guessing Game en version mobile">
+                            <img src="../assets/img/vignettes/vignetteGuessing.jpg" alt="vignettes montrant la page d'accueil du site Guessing Game en version mobile">
                         </div>
                         <p class="titreProjet">Guessing Game</p>
                     </a>
                     <a href="projets/05-projet-branding.html" class="cardProjet">
                         <div class="imgprojet">
-                            <img src="assets/img/vignettes/vignetteBranding.jpg" alt="vignettes montrant la page d'accueil du site Personnal Branding en version mobile">
+                            <img src="../assets/img/vignettes/vignetteBranding.jpg" alt="vignettes montrant la page d'accueil du site Personnal Branding en version mobile">
                         </div>
                         <p class="titreProjet">Personal Branding</p>
                     </a>
-                    <!-- <a href="projets/06-projet-k6.html" class="cardProjet">
-                        <div class="imgprojet">
-                            <img src="assets/img/vignettes/vignettesK6.jpg" alt="vignettes montrant la page d'accueil du site k6 auto ecole en version mobile">
-                        </div>
-                        <p class="titreProjet">K6 auto école</p>
-                    </a>
-                    <a href="projets/07-projet-parimis.html" class="cardProjet">
-                        <div class="imgprojet">
-                            <img src="assets/img/vignettes/vignetteParimis.jpg" alt="vignettes montrant la page d'accueil du site Parimis en version mobile">
-                        </div>
-                        <p class="titreProjet">Parimis</p>
-                    </a> -->
                 </div>
 
             </section>
         </div>
 
         <!-- Qui suis-je ? -->
+
         <div class="containerBg" id="quiSuisJe">
             <section class="containerGlobal">
                 <div class="containerQuiSuiJe">
@@ -151,15 +93,15 @@
                         <p>Depuis mon apprentissage du développement web, je me suis familiarisé avec les langages de programmation comme JavaScript et PHP. J'ai développé des compétences dans ce domaine en intégrant ou en créant des interfaces web multiplateformes. Parallèlement, j’ai participé à la création de modules e-learning en tant qu’intégrateur storyline. Cette expérience m’a permis de réfléchir au parcours utilisateur, à la gestion des intéractions et des animations tout en collaborant avec une équipe multidisciplinaire.</p>
                         <p>Je souhaite continuer à évoluer dans le domaine du web en créant des expériences en ligne captivantes, fonctionnelles et esthétiquement plaisantes. Je suis motivé par la possibilité de collaborer avec des équipes créatives et de relever des défis techniques pour offrir des solutions web de qualité.</p>
 
-                        <a href="assets/img/cv/CVJeremyCloarec.jpg" class="buttonPerso descriptionCv" download="CV_Jeremy_Cloarec.jpg">
+                        <a href="../assets/img/cv/CVJeremyCloarec.jpg" class="buttonPerso descriptionCv" download="CV_Jeremy_Cloarec.jpg">
                             <p>Télécharger mon CV</p>
                         </a>
 
                     </div>
                     <div class="containerFigma">
-                        <img src="assets/img/cv/CVJeremyCloarec.jpg" class="cv" alt="CV de Jérémy Cloarec">
+                        <img src="../assets/img/cv/CVJeremyCloarec.jpg" class="cv" alt="CV de Jérémy Cloarec">
 
-                        <a href="assets/img/cv/CVJeremyCloarec.jpg" class="buttonPerso fichierCV" download="CV_Jeremy_Cloarec.jpg">
+                        <a href="../assets/img/cv/CVJeremyCloarec.jpg" class="buttonPerso fichierCV" download="CV_Jeremy_Cloarec.jpg">
                             <p>Télécharger mon CV</p>
                         </a>
                     </div>
@@ -167,27 +109,7 @@
             </section>
         </div>
 
-        <!-- Qui suis-je copie -->
-
-        <!-- <div class="containerBg contact" id="quiSuisJe">
-            <section class="containerGlobal">
-                <div class="containerQuiSuiJe">
-                    <div class="sectionQuiSuisJe">
-                        <h2>Qui suis-je ?</h2>
-
-                        <p>Si mon travail vou intéresse, vous pouvez me contacter par mail ou sur Instagram en cliquant sur les icones correspondantes.</p>
-
-                        <a href="index.html#contact" class="buttonPerso">
-                            <p>Télécharger le CV</p>
-                        </a>
-
-                    </div>
-                    <div class="containerFigma">
-                        <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F1TPXw2cdqyjgC2IvMr4aAr%2FCV-et-Lettres%3Ftype%3Ddesign%26node-id%3D424%253A2%26t%3DmG5XssVpQqrVzZdV-1" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </section>
-        </div> -->
+        
 
         <!-- Contact -->
         <div class="containerBg contact" id="contact">
@@ -196,7 +118,7 @@
                 <div class="containerContact">
                     <p>Si mon travail vou intéresse, vous pouvez me contacter par mail ou sur Instagram en cliquant sur les icones correspondantes.</p>
                     <div class="mainEtReseaux">
-                        <img src="assets/img/doigt.PNG" alt="">
+                        <img src="../assets/img/doigt.PNG" alt="">
                         <div class="logoContact">
                             <a href="https://www.instagram.com/le_codarec/" target="_blank">
                                 <i class="fa-brands fa-instagram"></i>
@@ -211,32 +133,9 @@
         </div>
     </main>
 
-    <footer>
-        <section class="containerFooter">
-            <div class="liensFooter">
-                <a href="index.html#hero">Accueil</a>
-                <a href="index.html#realisations">Réalisations</a>
-                <a href="index.html#contact">Contact</a>
-            </div>
-            <div class="footerNom">
-                <p>2023 | Jérémy Cloarec</p>
-            </div>
-        </section>
-    </footer>
 
+    <?php include '../required/footer.php';?>
 
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/3c3a356350.js" crossorigin="anonymous"></script>
-    <script src="JS/script.js"></script>
-    <script src="JS/fullScreen.js
-    "></script>
 
 </body>
 

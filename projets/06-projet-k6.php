@@ -16,44 +16,13 @@
     <link rel="stylesheet" href="../css/projet.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="icon" type="image/x-icon" href="../assets/img/logoPerso/faviconJeremy.png">
-
-    <title>Guessing Game</title>
+    <title>K6 auto-école</title>
 </head>
 
 <body>
 
-    <header>
-        <nav class="navbar">
-            <a href="../index.html" class="nav-branding">
-                <img src="../assets/img/logoPerso/logoPersoBlanc.png" alt="#">
-            </a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="../index.html#hero" class="nav-link">Accueil</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../index.html#realisations" class="nav-link">Réalisations</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../index.html#contact" class="nav-link">Contact</a>
-                </li>
-                <div class="icoReseaux">
-                    <a href="https://github.com/Jeremy-Cloarec" target="_blank">
-                        <img src="../assets/img/logoLien/github-mark-white.png" alt="">
-                    </a>
-                    <a href="https://www.instagram.com/le_codarec/" target="_blank">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </div>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-    </header>
-   
+    <?php include 'required/nav.php';?>
+
 
     <div class="containerSlider">
         <div class="precedent">
@@ -67,10 +36,9 @@
         <section class="containerS ">
                 <div class="titreAudessus">
                     <div class="descriptionW">
-                        <h1>Guessing Game</h1>
-                        <p class="technique"><span>2022 | HTML, CSS, JS</p>
-                        <p class="description">Guessing Game est un jeu codé en suivant le tutoriel de développement de Mozilla dans leur cours d'introduction à JavaScript (disponible ici).</p>
-                        <p class="description">Ce projet m'a permis d'avoir une première expérience avec les variables, les boucles, les conditions et la manipulation du DOM. J'ai pu ainsi acquérir une compréhension initiale de ces concepts essentiels en programmation.</p>
+                        <h1>K6 auto-école</h1>
+                        <p class="technique">2022 | HTML, CSS</p>
+                        <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae enim itaque, rem debitis, totam, corporis facere vel dolorem quod molestias qui alias! Ducimus, necessitatibus quis praesentium illum iste quae amet libero. Fugit excepturi iste et sequi dignissimos maxime! Dolor, accusantium.</p>
                     </div>
                 </div>
                 <section class="carroussetCTA">
@@ -86,13 +54,19 @@
                         </div> -->
                         <div class="carousel-inner carrouselShadow">
                             <div class="carousel-item active">
-                                <img src="../assets/img/screenSite/guessing/guessing 1.jpg" class="d-block w-100" alt="...">
+                                <img src="../assets/img/screenSite/k6/k6.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="../assets/img/screenSite/guessing/guessing 2.jpg" class="d-block w-100">
+                                <img src="../assets/img/screenSite/k6/k62.jpg" class="d-block w-100">
                             </div>
                             <div class="carousel-item">
-                                <img src="../assets/img/screenSite/guessing/guessing 3.jpg" class="d-block w-100">
+                                <img src="../assets/img/screenSite/k6/k63.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/img/screenSite/k6/k64.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/img/screenSite/k6/k65.jpg" class="d-block w-100">
                             </div>
                         </div>
                         <button class="carousel-control-prev carrouselControlPerso" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
@@ -106,17 +80,18 @@
                     </div>
                 </section>
                 <div class="links">
-                    <a href="https://numberguessing.jeremycloarec.com/" class="buttonPerso voirSite" target="_blank">
+                    <a href="http://k6.jeremycloarec.com/" class="buttonPerso voirSite" target="_blank">
                         <p>Voir le site</p>
                     </a>
-                    <a href="https://github.com/Jeremy-Cloarec/guessgame" class="buttonPerso buttonIcon buttonFigma" target="_blank">
+                    <!-- 
+                    <a href="https://github.com/Jeremy-Cloarec/le-petit-commerce.git" class="buttonPerso buttonIcon buttonFigma" target="_blank">
                         <img src="../assets/img/logoLien/github-mark.png" alt="#">
                         <p>Voir le code</p> 
-                    </a>
-                    <!-- <a href="https://www.figma.com/proto/hdL96mgAurJNSst5BTefq7/Futuroscop?page-id=0%3A1&node-id=40-38&viewport=571%2C2391%2C0.36&scaling=scale-down&starting-point-node-id=40%3A38" class="buttonPerso buttonIcon" target="_blank">
+                    </a> -->
+                    <a href="https://xd.adobe.com/view/2b1ecde3-5af5-476a-8a6e-0e27d55ad4cd-7e4d/" class="buttonPerso buttonIcon" target="_blank">
                         <i class="fa-brands fa-figma"></i>
                         <p>Voir la maquette</p>
-                    </a> -->
+                    </a>
                 </div>
         </section>
     </div>

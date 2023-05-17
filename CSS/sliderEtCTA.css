@@ -16,9 +16,6 @@
 }
 
 
-
-
-
 .precedent{
     max-width: 992px;
     margin: auto;
@@ -44,8 +41,6 @@
     position: relative;
     left: 0px;
     transition: all ease-in-out 0.3s;
-
-
 }
 
 .flechePrecedent:hover{
@@ -53,6 +48,9 @@
     font-weight: 600;
 }
 
+a.flechePrecedent {
+    color : #262626
+}
 
 .containerSlider{
     margin: auto;

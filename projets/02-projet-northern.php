@@ -16,43 +16,12 @@
     <link rel="stylesheet" href="../css/projet.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="icon" type="image/x-icon" href="../assets/img/logoPerso/faviconJeremy.png">
-    <title>K6 auto-école</title>
+    <title>Northern Streetlight</title>
 </head>
 
 <body>
 
-    <header>
-        <nav class="navbar">
-            <a href="../index.html" class="nav-branding">
-                <img src="../assets/img/logoPerso/logoPersoBlanc.png" alt="#">
-            </a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="../index.html#hero" class="nav-link">Accueil</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../index.html#realisations" class="nav-link">Réalisations</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../index.html#contact" class="nav-link">Contact</a>
-                </li>
-                <div class="icoReseaux">
-                    <a href="https://github.com/Jeremy-Cloarec" target="_blank">
-                        <img src="../assets/img/logoLien/github-mark-white.png" alt="">
-                    </a>
-                    <a href="https://www.instagram.com/le_codarec/" target="_blank">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </div>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-    </header>
-   
+    <?php include 'required/nav.php';?>
 
     <div class="containerSlider">
         <div class="precedent">
@@ -66,9 +35,10 @@
         <section class="containerS ">
                 <div class="titreAudessus">
                     <div class="descriptionW">
-                        <h1>K6 auto-école</h1>
+                        <h1>Northern Streetlight</h1>
                         <p class="technique">2022 | HTML, CSS</p>
-                        <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae enim itaque, rem debitis, totam, corporis facere vel dolorem quod molestias qui alias! Ducimus, necessitatibus quis praesentium illum iste quae amet libero. Fugit excepturi iste et sequi dignissimos maxime! Dolor, accusantium.</p>
+                        <p class="description">Northern Streetlight est le nom d'une entreprise fictive offrant des cours de dessin. Ce projet est un exercice personnel basé sur un brief généré par le site goodbrief (https://goodbrief.io/).</p>
+                        <p class="description">Les défis majeurs de ce projet étaient de créer un menu burger en CSS pur et de concevoir des cartes adaptatives avec trois niveaux d'affichage (mobile, tablette et bureau).</p>
                     </div>
                 </div>
                 <section class="carroussetCTA">
@@ -84,19 +54,22 @@
                         </div> -->
                         <div class="carousel-inner carrouselShadow">
                             <div class="carousel-item active">
-                                <img src="../assets/img/screenSite/k6/k6.jpg" class="d-block w-100" alt="...">
+                                <img src="../assets/img/screenSite/streetlight/streetlight 1.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="../assets/img/screenSite/k6/k62.jpg" class="d-block w-100">
+                                <img src="../assets/img/screenSite/streetlight/streetlight 2.jpg" class="d-block w-100">
                             </div>
                             <div class="carousel-item">
-                                <img src="../assets/img/screenSite/k6/k63.jpg" class="d-block w-100">
+                                <img src="../assets/img/screenSite/streetlight/streetlight 3.jpg" class="d-block w-100">
                             </div>
                             <div class="carousel-item">
-                                <img src="../assets/img/screenSite/k6/k64.jpg" class="d-block w-100">
+                                <img src="../assets/img/screenSite/streetlight/streetlight 4.jpg" class="d-block w-100">
                             </div>
                             <div class="carousel-item">
-                                <img src="../assets/img/screenSite/k6/k65.jpg" class="d-block w-100">
+                                <img src="../assets/img/screenSite/streetlight/streetlight 5.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/img/screenSite/streetlight/streetlight 6.jpg" class="d-block w-100">
                             </div>
                         </div>
                         <button class="carousel-control-prev carrouselControlPerso" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
@@ -110,15 +83,14 @@
                     </div>
                 </section>
                 <div class="links">
-                    <a href="http://k6.jeremycloarec.com/" class="buttonPerso voirSite" target="_blank">
+                    <a href="https://streetlight.jeremycloarec.com/" class="buttonPerso voirSite" target="_blank">
                         <p>Voir le site</p>
                     </a>
-                    <!-- 
-                    <a href="https://github.com/Jeremy-Cloarec/le-petit-commerce.git" class="buttonPerso buttonIcon buttonFigma" target="_blank">
+                    <a href="https://github.com/Jeremy-Cloarec/northernStreetlight" class="buttonPerso buttonIcon buttonFigma" target="_blank">
                         <img src="../assets/img/logoLien/github-mark.png" alt="#">
                         <p>Voir le code</p> 
-                    </a> -->
-                    <a href="https://xd.adobe.com/view/2b1ecde3-5af5-476a-8a6e-0e27d55ad4cd-7e4d/" class="buttonPerso buttonIcon" target="_blank">
+                    </a>
+                    <a href="https://www.figma.com/proto/LQXioGyclGtU5cwr8tuIsX/Northern-Streetlight?page-id=39%3A4&node-id=61-6&viewport=490%2C513%2C0.11&scaling=scale-down&starting-point-node-id=61%3A6" class="buttonPerso buttonIcon" target="_blank">
                         <i class="fa-brands fa-figma"></i>
                         <p>Voir la maquette</p>
                     </a>
