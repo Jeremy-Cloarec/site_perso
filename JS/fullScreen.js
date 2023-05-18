@@ -18,7 +18,9 @@ console.log("hello");
 //     openFullscreen();
 // });
 
-
+document.addEventListener('DOMContentLoaded', function() {
+    // Votre code JavaScript ici
+  
 
 
 
@@ -34,7 +36,9 @@ const fullscreen = () => {
     }
 }
 
-cv.addEventListener('click', fullscreen)
+cv.addEventListener('click', fullscreen);
+
+});
 
 
 

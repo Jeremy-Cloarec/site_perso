@@ -208,7 +208,7 @@ a {
     .nav-menu.active{
         right: 0;
         width: 40%;
-        top:70px;
+        top:68px;
         padding-bottom: 50px;
         transition: all 0.3s ease;
     }

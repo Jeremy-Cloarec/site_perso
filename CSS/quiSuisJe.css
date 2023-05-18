@@ -6,16 +6,22 @@
 
 .containerQuiSuiJe{
     display: flex;
-    gap : 82px;
-    align-items: center;
+    gap : 42px;
+    align-items: flex-start;
 }
 
 #quiSuisJe h2{
-    padding: 0;
+    padding: 24px 16px;
+    text-align: center;
+    box-shadow: 1px 1px 8px #26262654;
+    border-radius: 8px;
+    width: 100%;
     margin: 0;
-    text-align: left;
-    padding-bottom: 32px;
+    margin-bottom: 36px;
 }
+
+
+
 
 #quiSuisJe .sectionQuiSuisJe{
     display: flex;
@@ -23,6 +29,32 @@
     gap: 24px;
     flex: 2;
     /* margin-top:48px; */
+}
+
+#texteCache{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    display:none;
+
+}
+
+a#lienRetracter, a#lienLireSuite {
+    color: #26262683;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    transition: all 0.3s ease;
+}
+a#lienRetracter:hover, a#lienLireSuite:hover {
+    color: #262626a2;
+    
+}
+#lienRetracter .material-symbols-outlined{
+    margin-left: 3px;
+    margin-bottom: 2px;
 }
 
 #quiSuisJe .containerFigma{
@@ -61,15 +93,6 @@
 
 
 
-/* #quiSuisJe .containerFigma iframe{
-    width: 100%;
-    height: 100%;
-    min-height: 600px;
-    background-color:#26262638;
-    border-radius: 8px;
-    border: 1px solid #26262638;
-} */
-
 .fullscreen{
     width:min-content;
     height: 90%;
@@ -80,6 +103,7 @@
 @media(max-width:992px){
     .containerQuiSuiJe{
         flex-direction: column;
+        align-items: center;
     }
 
     #quiSuisJe .sectionQuiSuisJe{
@@ -96,7 +120,17 @@
     .containerQuiSuiJe{
         gap: 32px;
     }
+    #quiSuisJe h2{
+        margin-bottom: 44px;
+    }
 
+}
+
+@media(max-width:768px){
+    #quiSuisJe h2{
+        margin-bottom: 36px;
+    }
+    
 }
 
 @media(max-width:576px){
@@ -106,6 +140,17 @@
     }
     .containerQuiSuiJe{
         gap: 32px;
+    }
+
+    #quiSuisJe h2{
+        margin-bottom: 16px;
+    }
+
+    a#lienRetracter, a#lienLireSuite{
+        font-size: 12px;
+    }
+    #lienRetracter .material-symbols-outlined{
+        font-size: 16px;
     }
 
 }

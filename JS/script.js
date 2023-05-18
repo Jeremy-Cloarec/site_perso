@@ -1,3 +1,6 @@
+document.addEventListener('DOMContentLoaded', function() {
+    // Votre code JavaScript ici
+
 
 let prevScrollpos = window.pageYOffset; 
 
@@ -57,6 +60,9 @@ let windowScroll = window.onscroll = function() {
     prevScrollpos = currentScrollPos;
 
 }
+
+
+});
 
 
 
