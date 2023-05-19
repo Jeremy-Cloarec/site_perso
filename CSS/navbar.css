@@ -13,26 +13,22 @@ header{
     align-items: center;
     color: white;
     gap: 12px;
-    
-}
-
-
-.nav-branding img{
-    width: 150px;
-    transition: all 0.3s;
-}
-
-.nav-branding img:hover{
-    opacity: 0.8;
 }
 
 .nav-branding p{
-    margin-bottom: 0;
-    font-size: 36px;
-    font-family: 'Merienda', cursive;
-    font-weight: 600;
-    letter-spacing: 1px;
+    font-size:42px;
+    font-family: 'Roboto Slab', serif;
 }
+
+.nav-branding p{
+
+    transition: all 0.3s;
+}
+
+.nav-branding p:hover{
+    opacity: 0.8;
+}
+
 
 .nav-menu img {
     width: 24px;

@@ -10,7 +10,9 @@
     <header>
     <nav class="navbar">
         <a href="<?= URL ?>index.php" class="nav-branding">
-            <img src="<?= URL ?>assets/img/logoPerso/logoPersoBlanc.png" alt="#">
+            <!-- <img src="<?= URL ?>assets/img/logoPerso/logoPersoBlanc.png" alt="#"> -->
+            <p>Jérémy</p>
+            
         </a>
         <ul class="nav-menu">
             <li class="nav-item">
