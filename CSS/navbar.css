@@ -3,17 +3,8 @@
 header{
     background-color:#262626 ;
     width: 100%;
-    height: 70px;
     display:flex;
     justify-content: center;
-    
-
-
-}
-
-.navbar{
-    width: 100%;
-    padding: 0 80px;
 }
 
 
@@ -104,6 +95,7 @@ a {
     background-color: #262626;
     transition: all 0.3s ease;
     flex-wrap: nowrap;
+    padding: 0 80px; 
 }
 
 
@@ -216,7 +208,7 @@ a {
     .nav-menu.active{
         right: 0;
         width: 40%;
-        top:70px;
+        top:68px;
         padding-bottom: 50px;
         transition: all 0.3s ease;
     }

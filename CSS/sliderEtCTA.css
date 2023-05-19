@@ -6,37 +6,32 @@
     flex-direction: column;
     height: 100%;
     flex-grow: 1;
-
+    margin: auto;
+    width: 100%;
+    padding: 0 32px;
+    padding-bottom: 90px;
+    max-width: 1080px;
 }
 
 .containerS {
     flex:1;
-
-
 }
 
 
-
-
-
 .precedent{
-    max-width: 992px;
+    max-width: 1200px;
     margin: auto;
     margin-top: 0;
     margin-bottom: 0;
     display: flex;
     justify-content: flex-start;
     width: 100%;
-
-    
-
-
 }
+
 .flechePrecedent{
     display: flex;
     gap: 8px;
-    padding: 12px 0;
-    padding-top: 24px;
+    padding: 18px 0;
     max-width: 160px;
     font-size: 12px;
     text-transform: uppercase;
@@ -44,8 +39,6 @@
     position: relative;
     left: 0px;
     transition: all ease-in-out 0.3s;
-
-
 }
 
 .flechePrecedent:hover{
@@ -53,58 +46,68 @@
     font-weight: 600;
 }
 
-
-.containerSlider{
-    margin: auto;
-    width: 100%;
-    padding: 0 32px;
-    padding-bottom: 90px;
-    background-color: #f1f1f1;
+a.flechePrecedent {
+    color : #262626
 }
 
+
 .containerS{
-    max-width: 768px;
+    max-width: 1200px;
     margin: auto;
     color:#262626;
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 60px;
     
 
 }
 
-.containerW{
-    /* background-color: royalblue; */
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
 
 .carroussetCTA{
     display: flex;
     gap: 24px;
-   
 }
 
-.carrouselShadow{
-    border-radius: 8px;
-    box-shadow: 1px 1px 8px #26262654;
-}
 
 /* Links description*/
 
 
 .descriptionW{
     display: flex;
-    flex-direction: column;
     gap: 24px;
+}
 
+.titreDescription{
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 16px;
+    border-radius: 8px;
+    flex:2;
+}
+
+.containerDescription{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.descriptionW h1{
+    text-align: center;
 }
 
 .descriptionW .technique{
-    font-weight: 600;
-    opacity:0.7;
+    font-weight: 300;
+    opacity:0.8;
+    text-align: center;
+    font-size: 20px;
 }
+
+
 
 
 
@@ -142,6 +145,7 @@
     padding-left:18px;
 }
 
+
 .containerSlider .buttonIcon:hover{
     background-color:#cecece;
 }
@@ -159,68 +163,36 @@
     line-height: 30px;
 }
 
-/* Carrousel */
-
-.carousel-control-next-icon, .carousel-control-prev-icon{
-    background-color:#262626;
-    padding: 16px;
-    border: 8px #262626 solid;
-}
-
-.indicateur{
-    background-color: #26262694;
-    padding: 8px 0;
-    border-radius: 50px;
-}
 
 
+/* IFRAME */
 
-
-
-
-/* .carrouselControlPerso{
-    top:0;
-    bottom:0;
-} */
-
-/* accordion-button */
-
-/* .accordion-button-style{
-    padding: 16px 0px;
-    padding-right:16px;
-    background-color:none;
-    font-size: 24px;
-    border-top: 1px solid #262626;
-    border-bottom: 1px solid #262626;
-}
-
-.accordion-button-style:focus{
-    background-color:#ffffff;
-    box-shadow: none;
-    border-top: 1px solid #262626;
-    border-bottom: 1px solid #262626;
-}
-
-.accordion-button-style:not(.collapsed){
+iframe#projetIframe{
+    width: 100%;
+    height :700px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 8px #26262654;
     background-color: white;
-    border-top: 1px solid #262626;
-    border-bottom: 1px solid #262626;
-    color:#262626;
 }
 
-.accordion-button-style:active{
-    background-color:white;
-
+@media(min-width:1400px){
+    .containerSlider {
+        max-width: 1400px;
+        
+    }
 }
-
-.accordion-body-style{
-    padding: 16px 0;
-} */
-
-
 
 
 @media(max-width:992px){
+
+    .descriptionW{
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .containerDescription{
+        margin: 0;
+    }
     .carrouselAll {
         width: 100%;
     }
@@ -231,9 +203,25 @@
     .descritionEtLien{
         width: 100%;
     }
+    .titreDescription .technique{
+        font-size: 16px;
+    }
 }
 
 @media(max-width:576px){
+    iframe#projetIframe{
+        height: 540px;
+    }
+
+    .titreDescription{
+        margin-bottom: 12px;
+    }
+    .titreDescription .technique{
+        font-size: 12px;
+    }
+    .carroussetCTA{
+        padding: 0 16px;
+    }
 
     .links{
         flex-direction: column;

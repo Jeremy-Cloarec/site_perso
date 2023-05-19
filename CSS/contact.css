@@ -1,13 +1,14 @@
+
 #contact{
-    background-color: #f3f3f3;
+    background-color: white;
 }
 
 .containerContact{
     display: flex;
-    max-width: 768px;
     margin: auto;
     gap:32px
 }
+
 
 
 
