@@ -6,6 +6,11 @@
     flex-direction: column;
     height: 100%;
     flex-grow: 1;
+    margin: auto;
+    width: 100%;
+    padding: 0 32px;
+    padding-bottom: 90px;
+    max-width: 1080px;
 }
 
 .containerS {
@@ -45,13 +50,6 @@ a.flechePrecedent {
     color : #262626
 }
 
-.containerSlider{
-    margin: auto;
-    width: 100%;
-    padding: 0 32px;
-    padding-bottom: 90px;
-    background-color: #f1f1f1;
-}
 
 .containerS{
     max-width: 1200px;
@@ -59,7 +57,7 @@ a.flechePrecedent {
     color:#262626;
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 60px;
     
 
 }
@@ -76,19 +74,26 @@ a.flechePrecedent {
 
 .descriptionW{
     display: flex;
-    flex-direction: column;
     gap: 24px;
 }
 
 .titreDescription{
-    background-color: white;
+    background-color: #f3f3f3;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     gap: 16px;
     padding: 24px 16px;
     border-radius: 8px;
-    margin-bottom: 24px;
-    box-shadow: 1px 1px 8px #26262654;
+    flex:2;
+}
+
+.containerDescription{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 24px 0;
 }
 
 .descriptionW h1{
@@ -99,9 +104,10 @@ a.flechePrecedent {
     font-weight: 300;
     opacity:0.8;
     text-align: center;
-    text-transform: uppercase;
     font-size: 20px;
 }
+
+
 
 
 
@@ -166,11 +172,27 @@ iframe#projetIframe{
     height :700px;
     border-radius: 8px;
     box-shadow: 1px 1px 8px #26262654;
-    background-color: #e4e4e4;
+    background-color: white;
+}
+
+@media(min-width:1400px){
+    .containerSlider {
+        max-width: 1400px;
+        
+    }
 }
 
 
 @media(max-width:992px){
+
+    .descriptionW{
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .containerDescription{
+        margin: 0;
+    }
     .carrouselAll {
         width: 100%;
     }

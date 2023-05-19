@@ -1,20 +1,21 @@
 #quiSuisJe{
-    max-width: 1400px;
     margin: auto;
-    background-color: white;
+
 }
 
 .containerQuiSuiJe{
     display: flex;
-    gap : 42px;
+    gap : 32px;
     align-items: flex-start;
 }
 
-#quiSuisJe h2{
-    padding: 24px 16px;
-    text-align: center;
-    box-shadow: 1px 1px 8px #26262654;
+.sectionQuiSuisJe{
+    background-color: #f3f3f3;
+    padding : 22px 22px;
     border-radius: 8px;
+}
+
+#quiSuisJe h2{
     width: 100%;
     margin: 0;
     margin-bottom: 36px;
@@ -36,7 +37,6 @@
     flex-direction: column;
     gap:24px;
     display:none;
-
 }
 
 a#lienRetracter, a#lienLireSuite {
@@ -58,7 +58,7 @@ a#lienRetracter:hover, a#lienLireSuite:hover {
 }
 
 #quiSuisJe .containerFigma{
-    flex: 1;
+    max-width: 180px;
 }
 
 .cv{
@@ -68,7 +68,7 @@ a#lienRetracter:hover, a#lienLireSuite:hover {
     /* border: 1px solid #26262638; */
     box-shadow: 0 0 0 1px #2626268a;
     cursor: pointer;
-    max-width: 650px;
+    
     transition: all 0.3s;
 }
 
@@ -81,7 +81,11 @@ a#lienRetracter:hover, a#lienLireSuite:hover {
 .containerFigma{
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 16px;
+}
+
+.containerFigma p{
+    font-size: 16px;
 }
 
 .containerFigma .fichierCV{
@@ -110,13 +114,6 @@ a#lienRetracter:hover, a#lienLireSuite:hover {
         margin-top: 0;
     }
 
-    .containerFigma .fichierCV{
-        display: block;
-    }
-
-    .descriptionCv{
-        display: none;
-    }
     .containerQuiSuiJe{
         gap: 32px;
     }

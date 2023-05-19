@@ -1,21 +1,12 @@
 
 
 .containerBg{
-    background-color: #f3f3f3;
-    padding: 110px 0;
+    background-color: white;
 }
 
 #realisations h2{
-
-    padding: 24px 16px;
-    max-width: 800px;
-    background-color: white;
-    text-align: center;
-    box-shadow: 1px 1px 8px #26262654;
-    border-radius: 8px;
-    margin-left: auto;
-    margin-right: auto;
-    
+    text-align: left;
+  
 }
 
 .grilleProjets{
@@ -23,7 +14,7 @@
     grid-template-columns: repeat(3,1fr);
     gap: 32px;
     row-gap: 48px;
-    max-width: 800px;
+
     margin: auto;
 }
 
@@ -70,14 +61,28 @@
     text-align: center;
 }
 
+@media(min-width:992px){
+    .grilleProjets{
+        max-width:927px ;
+    }
+}
+
+
 
 @media(max-width:992px){
-    
-}
-@media(max-width:768px){
-    .containerBg{
-        padding: 60px 0;
+
+    .containerMe img{
+        width: 320px;
     }
+    .bio{
+        max-width: 100%;
+    }
+}
+
+
+
+@media(max-width:768px){
+ 
     .grilleProjets{
         gap:24px;
         row-gap: 36px;
@@ -86,9 +91,7 @@
 }
 @media(max-width:576px){
     
-    /* .containerBg{
-        padding: 32px 0;
-    } */
+  
 
     .grilleProjets{
         gap:12px;

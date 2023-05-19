@@ -5,17 +5,17 @@
     
 }
 
+
 .containerHero{
     display: flex;
-    /* background-color: grey; */
-    /* max-height: 80vh; */
     gap: 24px;
     margin: auto;
     min-height: 425px;    
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 24px 0;
+    margin-top: 110px;
+    margin-bottom: 110px;
 }
 
 .bio{
@@ -25,7 +25,6 @@
     flex-direction: column;
     justify-content: center;
     gap: 24px;
-    max-width: 400px;
 }
 
 .containerMe{
@@ -39,22 +38,22 @@
 }
 
 .containerMe img{
-    width: 75%;
+    width: 400px;
     object-fit: contain;
+}
+
+@media(min-width:1400px){
+    .containerMe img{
+        width:500px;
+    }
 }
 
 
 
-
 @media(max-width:992px){
-    .containerHero{
-        padding-top: 0;
-        margin-top: 0px;
-        padding: 32px 0;
-    }
 
     .containerMe img{
-        width: 100%;
+        width: 320px;
     }
     .bio{
         max-width: 100%;
@@ -63,21 +62,27 @@
 
 @media(max-width:768px){
     
-    .containerHero {
-        min-height: auto;     
+    .containerHero {  
         flex-direction: column;
         justify-content: space-between;
-        padding: 0;
-        padding-bottom: 32px;
+        margin-top:0 ;
     }
+
     .bio{
         max-width: 100%;
     }
+
     .containerMe{
         order: 1;
         min-height: auto;
         padding: 32px;
     }
+
+    .containerMe img{
+        width: 400px;
+    }
+
+
     .bio{
         order: 2;
     }
@@ -86,11 +91,9 @@
 
 @media(max-width:576px){
     .containerHero{
-        padding-top: 0;
-        margin-bottom: 0;
-        margin-top: 0;
         gap: 0;
-        padding-bottom: 32px;
+        margin-bottom: 70px;
+
     }
 
     .containerMe{
@@ -98,6 +101,10 @@
         justify-content: center;
         width: 100%;
         padding: 24px;
+    }
+
+    .containerMe img{
+        width: 100%;
     }
 
 

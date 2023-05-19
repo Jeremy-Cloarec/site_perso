@@ -45,7 +45,6 @@ h1, h2, h3, h4 {
 
 h2{
     text-align: center;
-    /* margin: 90px 0; */
 }
 
 p{
@@ -66,28 +65,27 @@ a{
 }
 
 
-.header, .hero, .containerGlobal {
+.hero, .containerGlobal {
     padding: 0 32px;
-    max-width: 1400px;
+    max-width: 991px;
     margin: auto;
+}
+
+.containerGlobal{
+    padding-bottom: 110px;
 }
 
 
 h2{
-    margin-bottom: 90px;
+    margin-bottom: 60px;
+    text-align: left;
 }
-.containerW{
-    margin-bottom: 110px;
-}
+
 
 .accordion-button-style{
     margin-bottom: 32px;
 }
 
-
-.containerHero{
-    margin: 110px 0;
-}
 
 /* Boutons */
 
@@ -117,6 +115,14 @@ p{
 
 
 
+@media(min-width:1400px){
+    .hero, .containerGlobal {
+        max-width: 1200px;
+        
+    }
+}
+
+
 @media(max-width:992px){
     .navbar, .hero, .partTime{
         padding: 0 32px;
@@ -126,24 +132,23 @@ p{
 
 @media(max-width:768px){
 
-    h2{
-        margin-bottom: 60px;
-    }
-    .containerW{
-        margin-bottom: 60px;
-    }
-    
-    .containerHero{
-        margin: 80px 0;
-    }
+ 
 
 }
 
 
 @media(max-width:576px){
+
+
     .navbar, .hero, .partTime, .containerGlobal{
         padding: 0 12px;
     }
+
+    .containerGlobal{
+        padding-bottom:70px ;
+    }
+
+
     h2 {
         margin-bottom: 32px;        
     }

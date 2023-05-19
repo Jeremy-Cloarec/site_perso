@@ -40,31 +40,31 @@
                 <h2 >Réalisations</h2>
                 <!-- <h3 class="h3Grilles">2023</h3> -->
                 <div class="grilleProjets">
-                    <a href="<?= URL ?>projet/projet.php" class="cardProjet">
+                    <a href="<?= URL ?>projet/projet-petitCommerce" class="cardProjet">
                         <div class="imgprojet">
                             <img src="<?= URL ?>assets/img/vignettes/vignettePetitCommerce.jpg" alt="vignettes montrant la page d'accueil du site Le petit commerce en version mobile">
                         </div>
                         <p class="titreProjet">Le petit Commerce</p>
                     </a>
-                    <a href="<?= URL ?>projet/02-projet-northern.php" class="cardProjet">
+                    <a href="<?= URL ?>projet/projet-northern.php" class="cardProjet">
                         <div class="imgprojet">
                             <img src="<?= URL ?>assets/img/vignettes/vignetteNorthern.jpg" alt="vignettes montrant la page d'accueil du site Northern Streetlight en version mobile">
                         </div>
                         <p class="titreProjet">Northern Streetlight</p>
                     </a>
-                    <a href="<?= URL ?>projet/03-projet-futuroscope.php" class="cardProjet">
+                    <a href="<?= URL ?>projet/projet-futuroscope.php" class="cardProjet">
                         <div class="imgprojet">
                             <img src="<?= URL ?>assets/img/vignettes/vignetteFuturoscope.jpg" alt="vignettes montrant la page d'accueil d'une version personnelle du site du futuroscope en version mobile">
                         </div>
                         <p class="titreProjet">Futuroscope</p>
                     </a>
-                    <a href="<?= URL ?>projet/04-projet-guessingGame.php" class="cardProjet">
+                    <a href="<?= URL ?>projet/projet-guessing.php" class="cardProjet">
                         <div class="imgprojet">
                             <img src="<?= URL ?>assets/img/vignettes/vignetteGuessing.jpg" alt="vignettes montrant la page d'accueil du site Guessing Game en version mobile">
                         </div>
                         <p class="titreProjet">Guessing Game</p>
                     </a>
-                    <a href="<?= URL ?>projet/05-projet-branding.php" class="cardProjet">
+                    <a href="<?= URL ?>projet/projet-branding.php" class="cardProjet">
                         <div class="imgprojet">
                             <img src="<?= URL ?>assets/img/vignettes/vignetteBranding.jpg" alt="vignettes montrant la page d'accueil du site Personnal Branding en version mobile">
                         </div>
@@ -77,6 +77,7 @@
 
         <!-- Qui suis-je ? -->
 
+        <div></div>
         <div class="containerBg" id="quiSuisJe">
             <section class="containerGlobal">
                 <div class="containerQuiSuiJe">
@@ -110,10 +111,9 @@
                     </div>
                     <div class="containerFigma">
                         <img src="<?= URL ?>assets/img/cv/CVJeremyCloarec.jpg" class="cv" alt="CV de Jérémy Cloarec">
+                        <p>Cliquez sur l'image pour l'agrandir</p>
 
-                        <a href="<?= URL ?>assets/img/cv/CVJeremyCloarec.jpg" class="buttonPerso fichierCV" download="CV_Jeremy_Cloarec.jpg">
-                            <p>Téléchargez mon CV</p>
-                        </a>
+                        
                     </div>
                 </div>
             </section>
@@ -124,9 +124,11 @@
         <!-- Contact -->
         <div class="containerBg contact" id="contact">
             <section class="containerGlobal">
-                <h2>Me contacter</h2>
                 <div class="containerContact">
+                    <div class="containerCont">
+                    <h2>Me contacter</h2>
                     <p>Si mon travail vou intéresse, vous pouvez me contacter par mail ou sur Instagram en cliquant sur les icones correspondantes.</p>
+                    </div>
                     <div class="mainEtReseaux">
                         <img src="<?= URL ?>assets/img/doigt.PNG" alt="">
                         <div class="logoContact">
