@@ -10,9 +10,10 @@
     <footer>
         <section class="containerFooter">
             <div class="liensFooter">
-                <a href="<?= URL ?>#top">Accueil</a>
-                <a href="<?= URL ?>#realisations">Réalisations</a>
-                <a href="<?= URL ?>#contact">Contact</a>
+                <a href="<?= URL ?>#ancreHero">Accueil</a>
+                <a href="<?= URL ?>#ancreRealisation">Réalisations</a>
+                <a href="<?= URL ?>#ancreQui">Qui suis-je ?</a>
+                <a href="<?= URL ?>#ancreContact">Contact</a>
             </div>
             <div class="footerNom">
                 <p>2023 | Jérémy Cloarec</p>

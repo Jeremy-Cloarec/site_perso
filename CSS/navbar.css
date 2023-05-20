@@ -85,7 +85,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* position: fixed; */
+    position: fixed;
     top: 0px;
     width: 100%;
     background-color: #262626;
@@ -222,6 +222,10 @@ a {
     .navbar{
         padding: 0 12px;
     } 
+
+    .nav-branding p{
+        font-size: 32px;
+    }
     .nav-menu{
         padding:0 12px;
         
@@ -229,4 +233,6 @@ a {
     .nav-menu.active{
         width: 80%;
     }
+
+
 }

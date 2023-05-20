@@ -32,6 +32,7 @@ footer{
 .liensFooter a{
     border-bottom: 1px solid rgba(255, 255, 255, 0);
     transition: all 0.4s;
+    margin-right: 4px;
 }
 
 .liensFooter a:hover{
@@ -64,7 +65,7 @@ footer{
 
 @media(max-width:576px){
     .containerFooter .liensFooter{
-        padding: 18 12px;
+        padding: 18px 12px;
     }
      .containerFooter .footerNom {
         padding: 8px 12px;
@@ -73,5 +74,14 @@ footer{
     p{
         font-size: 16px;
     }
+
+   
     
+}
+
+@media(max-width:300px){
+    .liensFooter a {
+        font-size: 12px;
+    }
+
 }

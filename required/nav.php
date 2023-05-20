@@ -16,16 +16,16 @@
         </a>
         <ul class="nav-menu">
             <li class="nav-item">
-                <a href="<?= URL ?>#top" class="nav-link">Accueil</a>
+                <a href="<?= URL ?>#ancreHero" class="nav-link">Accueil</a>
             </li>
             <li class="nav-item">
-                <a href="<?= URL ?>#realisations" class="nav-link">Réalisations</a>
+                <a href="<?= URL ?>#ancreRealisation" class="nav-link">Réalisations</a>
             </li>
             <li class="nav-item">
-                <a href="<?= URL ?>#quiSuisJe" class="nav-link">Qui suis-je ?</a>
+                <a href="<?= URL ?>#ancreQui" class="nav-link">Qui suis-je ?</a>
             </li>
             <li class="nav-item">
-                <a href="<?= URL ?>#contact" class="nav-link">Contact</a>
+                <a href="<?= URL ?>#ancreContact" class="nav-link">Contact</a>
             </li>
             <div class="icoReseaux">
                 <a href="https://github.com/Jeremy-Cloarec" target="_blank">

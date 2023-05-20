@@ -13,7 +13,7 @@
     <?php require_once ('required/nav.php');?>
 
     <!-- Hero -->
-
+    <div class="ancreLien" id="ancreHero"></div>
     <section class="hero">
         <div class="containerHero">
             <div class="bio">
@@ -35,12 +35,13 @@
 
     <main>
         <!-- Réalisations -->
+        <div class="ancreLien" id="ancreRealisation"></div>
         <div class="containerBg" id="realisations">
             <section class="containerGlobal ">
                 <h2 >Réalisations</h2>
                 <!-- <h3 class="h3Grilles">2023</h3> -->
                 <div class="grilleProjets">
-                    <a href="<?= URL ?>projet/projet-petitCommerce" class="cardProjet">
+                    <a href="<?= URL ?>projet/projet-petitCommerce.php" class="cardProjet">
                         <div class="imgprojet">
                             <img src="<?= URL ?>assets/img/vignettes/vignettePetitCommerce.jpg" alt="vignettes montrant la page d'accueil du site Le petit commerce en version mobile">
                         </div>
@@ -77,7 +78,7 @@
 
         <!-- Qui suis-je ? -->
 
-        <div></div>
+        <div class="ancreLien" id="ancreQui"></div>
         <div class="containerBg" id="quiSuisJe">
             <section class="containerGlobal">
                 <div class="containerQuiSuiJe">
@@ -122,6 +123,7 @@
         
 
         <!-- Contact -->
+        <div class="ancreLien" id="ancreContact"></div>
         <div class="containerBg contact" id="contact">
             <section class="containerGlobal">
                 <div class="containerContact">
@@ -130,12 +132,12 @@
                     <p>Si mon travail vou intéresse, vous pouvez me contacter par mail ou sur Instagram en cliquant sur les icones correspondantes.</p>
                     </div>
                     <div class="mainEtReseaux">
-                        <img src="<?= URL ?>assets/img/doigt.PNG" alt="">
+                        <img src="<?= URL ?>assets/img/doigt.png" alt="#">
                         <div class="logoContact">
                             <a href="https://www.instagram.com/le_codarec/" target="_blank">
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
-                            <a href="mailto:jeremycloarecàmsn.com" target="_blank">
+                            <a href="mailto:jeremycloarec@msn.com" target="_blank">
                                 <i class="fa-regular fa-envelope"></i>
                             </a>
                         </div>
