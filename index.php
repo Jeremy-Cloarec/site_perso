@@ -105,13 +105,13 @@
                             <span class="material-symbols-outlined">
                                 expand_less
                             </span></a>
-                        <a href="<?= URL ?>assets/img/cv/CVJeremyCloarec.jpg" class="buttonPerso descriptionCv" download="CV_Jeremy_Cloarec.jpg">
+                        <a href="<?= URL ?>assets/img/cv/jeremy_cloarec_CV.pdf" class="buttonPerso descriptionCv" download="jeremy_cloarec_CV.pdf">
                             <p>Télécharger mon CV</p>
                         </a>
 
                     </div>
                     <div class="containerFigma">
-                        <img src="<?= URL ?>assets/img/cv/CVJeremyCloarec.jpg" class="cv" alt="CV de Jérémy Cloarec">
+                        <img src="<?= URL ?>assets/img/cv/jeremy_cloarec_CV.jpg" class="cv" alt="CV de Jérémy Cloarec">
                         <p>Cliquez sur l'image pour l'agrandir</p>
 
                         
@@ -129,7 +129,7 @@
                 <div class="containerContact">
                     <div class="containerCont">
                     <h2>Me contacter</h2>
-                    <p>Si mon travail vou intéresse, vous pouvez me contacter par mail ou sur Instagram en cliquant sur les icones correspondantes.</p>
+                    <p>Si mon travail vous intéresse, vous pouvez me contacter par mail ou sur Instagram en cliquant sur les icones correspondantes.</p>
                     </div>
                     <div class="mainEtReseaux">
                         <img src="<?= URL ?>assets/img/doigt.png" alt="#">
@@ -157,28 +157,3 @@
 
 </html>
 
-
-
-<!-- Section avec mes traveaux anciens classés en années -->
-
-    <!-- <h2>Anciens travaux</h2>
-        <section class="containerGlobal">
-            <div class="accordion " id="accordionExample">
-                <div class="accordion-item border-0">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed accordion-button-style rounded-0" type="button"
-                            data-bs-toggle="collapse" role="button" data-bs-target="#collapseOne" aria-expanded="false"
-                            aria-controls="collapseOne">
-                            2022
-                        </button>
-                    </h3>
-                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body accordion-body-style">
-                            <div class="containerW">
-                                Partie à dévoiler 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->

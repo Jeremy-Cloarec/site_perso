@@ -25,14 +25,14 @@ footer{
 
 .liensFooter{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 24px;
 }
 
 .liensFooter a{
     border-bottom: 1px solid rgba(255, 255, 255, 0);
     transition: all 0.4s;
-    margin-right: 4px;
 }
 
 .liensFooter a:hover{
@@ -79,9 +79,10 @@ footer{
     
 }
 
-@media(max-width:300px){
-    .liensFooter a {
-        font-size: 12px;
+@media(max-width:400px){
+    .liensFooter{
+        flex-direction: column;
+        gap: 18px;
     }
-
+    
 }
