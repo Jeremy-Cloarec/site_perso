@@ -83,6 +83,10 @@ footer{
     .liensFooter{
         flex-direction: column;
         gap: 18px;
+        align-items: center;
+    }
+    .liensFooter a{
+        width: fit-content;
     }
     
 }
