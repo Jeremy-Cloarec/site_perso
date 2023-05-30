@@ -22,27 +22,44 @@
 .mainEtReseaux img{
     order: 2;
     max-width: 360px;
-    margin-right: 18px;
 }
 
 .logoContact{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 18px;
+    gap: 24px;
 }
 
-.logoContact i{
-    color: #262626;
-    font-size: 62px;
-    width: 100%;
+.logoContactIco{
+    width: 100px;
+    transition: all 0.3s ease;
 }
 
-.logoContact i:hover{
-    color: #262626ce;
+.logoContactIco:hover{
+    opacity: 0.8;
 }
 
+.main{
+    margin-right: 50px;
+}
+
+
+
+@media(max-width:992px){
+    .mainEtReseaux{
+        width: 40%;
+    }
+
+}
 @media(max-width:768px){
+    .main{
+        margin: 0;
+        width: 60%;
+    }
+    .mainEtReseaux{
+        width: 100%;
+    }
     .containerContact{
         flex-direction: column;
     }
@@ -55,9 +72,22 @@
         align-self: center;
     }
 
-    .mainEtReseaux img{
-        width: 60%;
+    .logoContact{
+        width: auto;
+    }
 
+    .logoContactIco{
+        width: 80px;
+    }
+
+}
+
+@media(max-width:576px){
+    .logoContactIco{
+        width: 60px;
+    }
+    .logoContact{
+        gap: 12px;
     }
 
 }

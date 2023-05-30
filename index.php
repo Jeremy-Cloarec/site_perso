@@ -132,13 +132,13 @@
                     <p>Si mon travail vous intéresse, vous pouvez me contacter par mail ou sur Instagram en cliquant sur les icones correspondantes.</p>
                     </div>
                     <div class="mainEtReseaux">
-                        <img src="<?= URL ?>assets/img/doigt.png" alt="#">
+                        <img class="main" src="<?= URL ?>assets/img/doigt.png" alt="#">
                         <div class="logoContact">
                             <a href="https://www.instagram.com/le_codarec/" target="_blank">
-                                <i class="fa-brands fa-instagram"></i>
+                                <img class="logoContactIco" src="<?= URL ?>assets/img/logoLien/insta_noir.png" alt="Logo de Instagram">
                             </a>
                             <a href="mailto:jeremycloarec@msn.com" target="_blank">
-                                <i class="fa-regular fa-envelope"></i>
+                                <img class="logoContactIco" src="<?= URL ?>assets/img/logoLien/mail_noir.png" alt="Logo de Instagram">
                             </a>
                         </div>
                     </div>

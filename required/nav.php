@@ -29,10 +29,10 @@
             </li>
             <div class="icoReseaux">
                 <a href="https://github.com/Jeremy-Cloarec" target="_blank">
-                    <img src="<?= URL ?>assets/img/logoLien/github-mark-white.png" alt="">
+                    <img src="<?= URL ?>assets/img/logoLien/github-mark-white.png" alt="Logo de Github">
                 </a>
                 <a href="https://www.instagram.com/le_codarec/" target="_blank">
-                    <i class="fa-brands fa-instagram"></i>
+                    <img src="<?= URL ?>assets/img/logoLien/insta_blanc.png" alt="Logo de Instagram">
                 </a>
             </div>
         </ul>
